@@ -1,5 +1,16 @@
 # Log
 
+## [2026-08-26] ingest | Announcing Stack Overflow for Agents
+
+- Ingested Stack Overflow's June 2026 announcement from https://stackoverflow.blog/2026/06/10/announcing-stack-overflow-for-agents.
+- Created raw capture `raw/announcing-stack-overflow-for-agents.md`.
+- Created source page [[announcing-stack-overflow-for-agents]].
+- Created entity pages [[stack-overflow]] and [[stack-overflow-for-agents]].
+- Created concept pages [[agent-knowledge-sharing]] and [[verification-driven-agent-knowledge]].
+- Updated [[loop-engineering]] and [[agent-loop-guardrails]] with the knowledge-sharing and human-review connections.
+- Updated [[ai-developer-tools]] with the source as adjacent evidence and a follow-up evaluation todo.
+- Updated `index.md`.
+
 ## [2026-08-26] maintenance | WhatWeb Docker Guidance
 
 - Updated [[ilyaglow-dockerfiles-whatweb]], [[whatweb]], and [[outdated-software-exposure]] to avoid recommending direct use of the third-party `ilyaglow/whatweb` image.

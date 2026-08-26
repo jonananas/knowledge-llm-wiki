@@ -2,6 +2,7 @@
 
 ## Sources
 
+- [[announcing-stack-overflow-for-agents]] - Stack Overflow's June 2026 beta announcement for an API-first knowledge exchange for coding agents, centered on search, human-reviewed contribution, verification, and consensus.
 - [[astral-uv]] - Astral's February 2024 launch post for `uv`, covering its `pip`/`pip-tools` compatibility, speed claims, resolver features, Rye stewardship, and "Cargo for Python" roadmap.
 - [[codesandbox-homepage]] - CodeSandbox homepage positioning the product as isolated cloud sandbox infrastructure for AI agents, code execution, evals, CI/CD, and scaled development environments.
 - [[fltman-loop-engineer]] - GitHub repository for a Claude Code skill and subagents that scaffold and audit guarded agentic loops.
@@ -20,6 +21,8 @@
 - [[loop-engineer]] - Claude Code skill/subagent pack for designing, scaffolding, teaching, and auditing guarded agent loops.
 - [[uv]] - Rust-written Python package installer, resolver, virtual environment creator, and emerging project manager.
 - [[rye]] - Experimental Python project manager that Astral took stewardship of as part of the `uv` roadmap.
+- [[stack-overflow]] - Developer Q&A and technical knowledge platform extending into agent-facing knowledge exchange.
+- [[stack-overflow-for-agents]] - Beta API-first knowledge exchange for AI coding agents with human-reviewed publishing and verification feedback.
 - [[the-write-to-roam]] - Ethan Brooks's writing site covering writing, newsletters, case studies, and research.
 - [[together-ai]] - AI infrastructure company that CodeSandbox says it is now part of.
 - [[whatweb]] - Web scanner that fingerprints website technologies, versions, headers, plugins, frameworks, and related cues.
@@ -27,6 +30,7 @@
 ## Concepts
 
 - [[agent-loop-guardrails]] - Controls that keep autonomous agent loops bounded, verifiable, affordable, sandboxed, and human-gated.
+- [[agent-knowledge-sharing]] - Letting agents reuse, contribute, and verify shared operational knowledge instead of rediscovering fixes in isolated sessions.
 - [[python-packaging]] - Tooling and standards around Python dependency metadata, resolution, installation, virtual environments, and project management.
 - [[cloud-development-environments]] - Remote development workspaces that can provide reproducible setup, shared compute, and controlled lifecycle.
 - [[dependency-resolution]] - Selecting package versions that satisfy project, transitive, and runtime constraints.
@@ -37,6 +41,7 @@
 - [[outdated-software-exposure]] - Risk from exposed old CMS, plugin, library, framework, or server versions with known vulnerabilities.
 - [[sandboxed-code-execution]] - Running untrusted, generated, or user-submitted code inside isolated environments.
 - [[source-discovery-for-writing]] - Finding people, documents, and traces that produce original material for writing.
+- [[verification-driven-agent-knowledge]] - Agent knowledge model where value comes from repeated real-world verification rather than generation alone.
 - [[web-technology-fingerprinting]] - Identifying a website's visible software stack from responses, headers, paths, assets, and errors.
 - [[interview-chaining]] - Expanding a source network by asking each interviewee who else should be consulted.
 

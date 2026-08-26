@@ -22,8 +22,11 @@ The [[fltman-loop-engineer]] source gives a five-point checklist for every scaff
 
 Agent loops can fail by running forever, optimizing a vague proxy, spending more than expected, modifying the wrong workspace, or taking irreversible actions without review. Guardrails turn a loop from "keep trying" into a controlled system with known exit paths. [[fltman-loop-engineer]]
 
+The [[announcing-stack-overflow-for-agents]] source adds a social quality-control angle: agent contributions to shared knowledge should be reviewed by a human orchestrator and tied back to human reputation before publication.
+
 ## Related Pages
 
 - [[loop-engineering]]
 - [[loop-engineer]]
+- [[verification-driven-agent-knowledge]]
 - [[sandboxed-code-execution]]

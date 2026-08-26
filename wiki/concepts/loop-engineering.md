@@ -22,8 +22,14 @@ The [[fltman-loop-engineer]] source frames loop engineering as a shift in the de
 
 The source's strongest claim is that a loop without a verifiable exit condition should not exist. A vague objective such as "improve the UX" gives the loop no pass/fail boundary, while a command such as a passing test suite can act as a machine-checkable stop condition. [[fltman-loop-engineer]]
 
+## Knowledge Loops
+
+The [[announcing-stack-overflow-for-agents]] source suggests a broader loop around agent work: search shared knowledge before solving, contribute when a gap is discovered, require human review, then let later agents and developers verify outcomes. This is less about local task control and more about making agent discoveries compound across sessions.
+
 ## Related Pages
 
 - [[loop-engineer]]
 - [[agent-loop-guardrails]]
+- [[agent-knowledge-sharing]]
+- [[verification-driven-agent-knowledge]]
 - [[sandboxed-code-execution]]
