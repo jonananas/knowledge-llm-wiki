@@ -1,5 +1,14 @@
 # Log
 
+## [2026-08-26] ingest | RF-DETR Docs
+
+- Ingested the RF-DETR documentation homepage from https://rfdetr.roboflow.com/latest/.
+- Created raw capture `raw/rf-detr-docs.md`.
+- Created source page [[rf-detr-docs]].
+- Created entity pages [[rf-detr]] and [[roboflow]].
+- Created concept pages [[object-detection]], [[instance-segmentation]], and [[detection-transformers]].
+- Updated `index.md`.
+
 ## [2026-08-26] opinion | Web Tools package manager recommendation
 
 - Updated `opinions/web-tools.md` with the working opinion that [[pnpm]] is the recommended package manager for most JavaScript projects.

@@ -12,6 +12,7 @@
 - [[ilyaglow-dockerfiles-whatweb]] - Dockerfiles repository addendum pointing to an example WhatWeb Dockerfile for building an audited local container image.
 - [[nabla-c0d3-sslyze]] - GitHub repository for SSLyze, a CLI and Python library for SSL/TLS configuration scanning and CI compliance checks.
 - [[pnpm-vs-npm-vs-yarn-vs-bun-2026]] - DEV/Pockit comparison of npm, Yarn, pnpm, and Bun as JavaScript package managers in early 2026.
+- [[rf-detr-docs]] - Roboflow RF-DETR documentation for a real-time detection transformer model family supporting detection, segmentation, and keypoint detection preview.
 - [[urbanadventurer-whatweb]] - GitHub repository for WhatWeb, a web technology fingerprinting scanner useful for detecting exposed technology and version information.
 
 ## Entities
@@ -27,6 +28,8 @@
 - [[mostly-harmless-ai]] - Alejandro Piad Morffis's AI publication.
 - [[npm]] - Default package manager shipped with Node.js and baseline compatibility choice.
 - [[pnpm]] - JavaScript package manager focused on disk efficiency, strictness, and strong workspace support.
+- [[rf-detr]] - Roboflow real-time detection transformer model family for object detection, instance segmentation, and keypoint detection preview.
+- [[roboflow]] - Computer-vision platform company behind RF-DETR.
 - [[uv]] - Rust-written Python package installer, resolver, virtual environment creator, and emerging project manager.
 - [[rye]] - Experimental Python project manager that Astral took stewardship of as part of the `uv` roadmap.
 - [[sslyze]] - SSL/TLS scanning CLI and Python library for certificates, ciphers, curves, protocol behavior, and known TLS attacks.
@@ -45,15 +48,18 @@
 - [[python-packaging]] - Tooling and standards around Python dependency metadata, resolution, installation, virtual environments, and project management.
 - [[cloud-development-environments]] - Remote development workspaces that can provide reproducible setup, shared compute, and controlled lifecycle.
 - [[dependency-resolution]] - Selecting package versions that satisfy project, transitive, and runtime constraints.
+- [[detection-transformers]] - Transformer-based object detection architectures, including RF-DETR.
 - [[documentation-frameworks]] - Reusable systems for docs-site routing, navigation, search, theming, content loading, and authoring.
 - [[external-web-security-scanning]] - First-pass outside-in assessment of exposed web technologies, version clues, TLS posture, certificates, and weak configurations.
 - [[information-advantage]] - Competitive edge from knowing useful things competitors do not.
 - [[javascript-monorepo-package-management]] - Dependency and workspace management across multi-package JavaScript repositories.
 - [[javascript-package-management]] - Installing, resolving, locking, auditing, and running dependencies in JavaScript/Node.js projects.
 - [[javascript-package-manager-selection]] - Choosing between npm, Yarn, pnpm, and Bun based on project constraints.
+- [[instance-segmentation]] - Computer-vision task that returns per-object masks rather than only bounding boxes.
 - [[loop-engineering]] - Designing the control loop around an agent: triggers, verification, stopping conditions, budgets, and handoff.
 - [[mdx-documentation]] - Documentation authoring that combines Markdown prose with JSX components and JavaScript expressions.
 - [[outdated-software-exposure]] - Risk from exposed old CMS, plugin, library, framework, or server versions with known vulnerabilities.
+- [[object-detection]] - Computer-vision task of identifying object instances with bounding boxes and class labels.
 - [[proposer-verifier-curator-loop]] - Loop model where humans pose questions, AI proposes candidates, independent verifiers filter, and humans curate.
 - [[sandboxed-code-execution]] - Running untrusted, generated, or user-submitted code inside isolated environments.
 - [[source-discovery-for-writing]] - Finding people, documents, and traces that produce original material for writing.
