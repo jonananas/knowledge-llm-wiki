@@ -1,5 +1,15 @@
 # Log
 
+## [2026-08-26] ingest | urbanadventurer/WhatWeb
+
+- Ingested the `urbanadventurer/WhatWeb` GitHub repository README from https://github.com/urbanadventurer/whatweb.
+- Created raw capture `raw/urbanadventurer-whatweb.md`.
+- Created source page [[urbanadventurer-whatweb]].
+- Created entity page [[whatweb]].
+- Created concept pages [[web-technology-fingerprinting]] and [[outdated-software-exposure]].
+- Added the requested outdated software note with `whatweb -v -a 3 yourdomain.com`.
+- Updated `index.md`.
+
 ## [2026-08-26] opinion | AI Developer Tools
 
 - Created first opinion page `opinions/ai-developer-tools.md`.
