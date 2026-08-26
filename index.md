@@ -35,6 +35,10 @@
 - [[source-discovery-for-writing]] - Finding people, documents, and traces that produce original material for writing.
 - [[interview-chaining]] - Expanding a source network by asking each interviewee who else should be consulted.
 
+## Opinions
+
+- [[ai-developer-tools]] - Working opinions on AI developer tools, currently including spec-driven AI development and loop engineering as hypotheses to evaluate.
+
 ## Comparisons
 
 No comparison pages yet.

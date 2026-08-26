@@ -1,5 +1,12 @@
 # Log
 
+## [2026-08-26] opinion | AI Developer Tools
+
+- Created first opinion page `opinions/ai-developer-tools.md`.
+- Recorded working opinions that spec-driven AI development is likely more structured and successful than just prompting, and that loop engineering may be the next step but needs evaluation.
+- Added todo: evaluate loop engineering https://github.com/fltman/loop-engineer.
+- Updated `index.md`.
+
 ## [2026-08-26] ingest | fltman/loop-engineer
 
 - Ingested the `fltman/loop-engineer` GitHub repository README from https://github.com/fltman/loop-engineer.
