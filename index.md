@@ -11,18 +11,22 @@
 - [[how-to-write-stuff-no-one-else-can]] - Ethan Brooks on building a writing moat through information advantage, overlooked sources, company timeline mapping, and interview chaining.
 - [[ilyaglow-dockerfiles-whatweb]] - Dockerfiles repository addendum pointing to an example WhatWeb Dockerfile for building an audited local container image.
 - [[nabla-c0d3-sslyze]] - GitHub repository for SSLyze, a CLI and Python library for SSL/TLS configuration scanning and CI compliance checks.
+- [[pnpm-vs-npm-vs-yarn-vs-bun-2026]] - DEV/Pockit comparison of npm, Yarn, pnpm, and Bun as JavaScript package managers in early 2026.
 - [[urbanadventurer-whatweb]] - GitHub repository for WhatWeb, a web technology fingerprinting scanner useful for detecting exposed technology and version information.
 
 ## Entities
 
 - [[astral]] - Python developer tooling company behind Ruff and `uv`.
 - [[alejandro-piad-morffis]] - Author of the Mostly Harmless AI article on AI-assisted science as a loop.
+- [[bun]] - JavaScript runtime with an integrated speed-focused package manager.
 - [[claude-code]] - Host environment targeted by Loop Engineer; needs official-doc expansion before broad use.
 - [[codesandbox]] - Platform for isolated cloud development environments, programmatic sandboxes, and secure code execution.
 - [[ethan-brooks]] - Writer behind The Write to Roam, focused here on original research methods for writers.
 - [[fumadocs]] - Open-source React documentation framework with composable content, core, and UI layers.
 - [[loop-engineer]] - Claude Code skill/subagent pack for designing, scaffolding, teaching, and auditing guarded agent loops.
 - [[mostly-harmless-ai]] - Alejandro Piad Morffis's AI publication.
+- [[npm]] - Default package manager shipped with Node.js and baseline compatibility choice.
+- [[pnpm]] - JavaScript package manager focused on disk efficiency, strictness, and strong workspace support.
 - [[uv]] - Rust-written Python package installer, resolver, virtual environment creator, and emerging project manager.
 - [[rye]] - Experimental Python project manager that Astral took stewardship of as part of the `uv` roadmap.
 - [[sslyze]] - SSL/TLS scanning CLI and Python library for certificates, ciphers, curves, protocol behavior, and known TLS attacks.
@@ -31,6 +35,7 @@
 - [[the-write-to-roam]] - Ethan Brooks's writing site covering writing, newsletters, case studies, and research.
 - [[together-ai]] - AI infrastructure company that CodeSandbox says it is now part of.
 - [[whatweb]] - Web scanner that fingerprints website technologies, versions, headers, plugins, frameworks, and related cues.
+- [[yarn]] - JavaScript package manager; Yarn 4/Berry emphasizes Plug'n'Play, zero-installs, and plugins.
 
 ## Concepts
 
@@ -43,6 +48,9 @@
 - [[documentation-frameworks]] - Reusable systems for docs-site routing, navigation, search, theming, content loading, and authoring.
 - [[external-web-security-scanning]] - First-pass outside-in assessment of exposed web technologies, version clues, TLS posture, certificates, and weak configurations.
 - [[information-advantage]] - Competitive edge from knowing useful things competitors do not.
+- [[javascript-monorepo-package-management]] - Dependency and workspace management across multi-package JavaScript repositories.
+- [[javascript-package-management]] - Installing, resolving, locking, auditing, and running dependencies in JavaScript/Node.js projects.
+- [[javascript-package-manager-selection]] - Choosing between npm, Yarn, pnpm, and Bun based on project constraints.
 - [[loop-engineering]] - Designing the control loop around an agent: triggers, verification, stopping conditions, budgets, and handoff.
 - [[mdx-documentation]] - Documentation authoring that combines Markdown prose with JSX components and JavaScript expressions.
 - [[outdated-software-exposure]] - Risk from exposed old CMS, plugin, library, framework, or server versions with known vulnerabilities.
@@ -59,7 +67,7 @@
 ## Opinions
 
 - [[ai-developer-tools]] - Working opinions on AI developer tools, currently including spec-driven AI development and loop engineering as hypotheses to evaluate.
-- [[web-tools]] - Working opinions on practical web tooling, currently focused on pairing WhatWeb and SSLyze for external web security scanning.
+- [[web-tools]] - Working opinions on practical web tooling, currently including external web security scanning and pnpm as the default JavaScript package manager recommendation.
 
 ## Comparisons
 

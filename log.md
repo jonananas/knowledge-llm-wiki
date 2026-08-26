@@ -1,5 +1,21 @@
 # Log
 
+## [2026-08-26] opinion | Web Tools package manager recommendation
+
+- Updated `opinions/web-tools.md` with the working opinion that [[pnpm]] is the recommended package manager for most JavaScript projects.
+- Recorded the caveat that [[bun]] can be faster in some scenarios but is not yet the default recommendation because of security, compatibility, and support concerns.
+- Updated `index.md`.
+
+## [2026-08-26] ingest | pnpm vs npm vs yarn vs Bun
+
+- Ingested HK Lee's January 2026 DEV/Pockit comparison from https://dev.to/pockit_tools/pnpm-vs-npm-vs-yarn-vs-bun-the-2026-package-manager-showdown-51dc.
+- Created raw capture `raw/pnpm-vs-npm-vs-yarn-vs-bun-2026.md`.
+- Created source page [[pnpm-vs-npm-vs-yarn-vs-bun-2026]].
+- Created entity pages [[npm]], [[yarn]], [[pnpm]], and [[bun]].
+- Created concept pages [[javascript-package-management]], [[javascript-package-manager-selection]], and [[javascript-monorepo-package-management]].
+- Updated [[dependency-resolution]] with the JavaScript package-management connection.
+- Updated `index.md`.
+
 ## [2026-08-26] opinion | Web Tools
 
 - Created [[external-web-security-scanning]] to highlight the touching points between [[whatweb]] and [[sslyze]].

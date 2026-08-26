@@ -10,6 +10,8 @@ Dependency resolution is the process of selecting package versions that satisfy 
 
 The [[astral-uv]] source treats resolution as a core technical bottleneck in Python packaging. [[uv]] is notable because it implements a fast resolver in Rust and exposes resolution workflows that are useful beyond basic installation.
 
+The [[pnpm-vs-npm-vs-yarn-vs-bun-2026]] source approaches dependency management from the JavaScript ecosystem. It is less focused on resolver algorithms and more focused on practical package-manager tradeoffs: compatibility, install speed, disk usage, lockfile behavior, workspace support, and audit tooling.
+
 ## Resolution Modes Highlighted By uv
 
 - Latest-compatible resolution: the default Python packaging behavior, selecting the newest versions that satisfy constraints.
@@ -21,3 +23,4 @@ The [[astral-uv]] source treats resolution as a core technical bottleneck in Pyt
 
 - [[uv]]
 - [[python-packaging]]
+- [[javascript-package-management]]
