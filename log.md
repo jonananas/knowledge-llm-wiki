@@ -1,5 +1,14 @@
 # Log
 
+## [2026-08-26] ingest | Fumadocs Homepage
+
+- Ingested the Fumadocs homepage from https://www.fumadocs.dev/.
+- Created raw capture `raw/fumadocs-homepage.md`.
+- Created source page [[fumadocs-homepage]].
+- Created entity page [[fumadocs]].
+- Created concept pages [[documentation-frameworks]] and [[mdx-documentation]].
+- Updated `index.md`.
+
 ## [2026-08-26] ingest | CodeSandbox Homepage
 
 - Ingested the CodeSandbox homepage from https://codesandbox.io/.
