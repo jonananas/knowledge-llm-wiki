@@ -12,6 +12,8 @@ WhatWeb is a web scanner for identifying technologies used by websites. Its READ
 
 WhatWeb is useful for web reconnaissance and defensive asset inventory. It can reveal exposed software stacks and version information that should be reviewed for patching, removal, or reduced fingerprintability.
 
+In [[external-web-security-scanning]], WhatWeb complements [[sslyze]]: WhatWeb covers application-layer technology and version fingerprints, while SSLyze covers TLS certificates, protocols, ciphers, curves, and known transport-layer weaknesses.
+
 ## Outdated Software
 
 Run `whatweb -v -a 3 yourdomain.com` against any website. Every outdated CMS version, plugin, library, or framework version it reveals is a potential known vulnerability waiting to be exploited.
@@ -46,6 +48,8 @@ Before relying on a containerized scanner for security work, verify the Dockerfi
 
 ## Related Pages
 
+- [[external-web-security-scanning]]
+- [[sslyze]]
 - [[web-technology-fingerprinting]]
 - [[outdated-software-exposure]]
 - [[ilyaglow-dockerfiles-whatweb]]

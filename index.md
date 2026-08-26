@@ -10,6 +10,7 @@
 - [[fumadocs-homepage]] - Fumadocs homepage positioning it as a composable React documentation framework with Markdown/MDX, headless customization, and flexible content sources.
 - [[how-to-write-stuff-no-one-else-can]] - Ethan Brooks on building a writing moat through information advantage, overlooked sources, company timeline mapping, and interview chaining.
 - [[ilyaglow-dockerfiles-whatweb]] - Dockerfiles repository addendum pointing to an example WhatWeb Dockerfile for building an audited local container image.
+- [[nabla-c0d3-sslyze]] - GitHub repository for SSLyze, a CLI and Python library for SSL/TLS configuration scanning and CI compliance checks.
 - [[urbanadventurer-whatweb]] - GitHub repository for WhatWeb, a web technology fingerprinting scanner useful for detecting exposed technology and version information.
 
 ## Entities
@@ -24,6 +25,7 @@
 - [[mostly-harmless-ai]] - Alejandro Piad Morffis's AI publication.
 - [[uv]] - Rust-written Python package installer, resolver, virtual environment creator, and emerging project manager.
 - [[rye]] - Experimental Python project manager that Astral took stewardship of as part of the `uv` roadmap.
+- [[sslyze]] - SSL/TLS scanning CLI and Python library for certificates, ciphers, curves, protocol behavior, and known TLS attacks.
 - [[stack-overflow]] - Developer Q&A and technical knowledge platform extending into agent-facing knowledge exchange.
 - [[stack-overflow-for-agents]] - Beta API-first knowledge exchange for AI coding agents with human-reviewed publishing and verification feedback.
 - [[the-write-to-roam]] - Ethan Brooks's writing site covering writing, newsletters, case studies, and research.
@@ -39,6 +41,7 @@
 - [[cloud-development-environments]] - Remote development workspaces that can provide reproducible setup, shared compute, and controlled lifecycle.
 - [[dependency-resolution]] - Selecting package versions that satisfy project, transitive, and runtime constraints.
 - [[documentation-frameworks]] - Reusable systems for docs-site routing, navigation, search, theming, content loading, and authoring.
+- [[external-web-security-scanning]] - First-pass outside-in assessment of exposed web technologies, version clues, TLS posture, certificates, and weak configurations.
 - [[information-advantage]] - Competitive edge from knowing useful things competitors do not.
 - [[loop-engineering]] - Designing the control loop around an agent: triggers, verification, stopping conditions, budgets, and handoff.
 - [[mdx-documentation]] - Documentation authoring that combines Markdown prose with JSX components and JavaScript expressions.
@@ -46,6 +49,8 @@
 - [[proposer-verifier-curator-loop]] - Loop model where humans pose questions, AI proposes candidates, independent verifiers filter, and humans curate.
 - [[sandboxed-code-execution]] - Running untrusted, generated, or user-submitted code inside isolated environments.
 - [[source-discovery-for-writing]] - Finding people, documents, and traces that produce original material for writing.
+- [[tls-compliance-in-ci]] - Automated TLS policy checks in CI/CD using profiles such as Mozilla old/intermediate/modern or custom configs.
+- [[tls-configuration-scanning]] - Checking server TLS versions, certificates, ciphers, curves, extensions, and known TLS attack exposure.
 - [[verification-driven-agent-knowledge]] - Agent knowledge model where value comes from repeated real-world verification rather than generation alone.
 - [[verifier-bottleneck]] - Constraint that appears when cheap candidate generation outpaces reliable verification capacity.
 - [[web-technology-fingerprinting]] - Identifying a website's visible software stack from responses, headers, paths, assets, and errors.
@@ -54,6 +59,7 @@
 ## Opinions
 
 - [[ai-developer-tools]] - Working opinions on AI developer tools, currently including spec-driven AI development and loop engineering as hypotheses to evaluate.
+- [[web-tools]] - Working opinions on practical web tooling, currently focused on pairing WhatWeb and SSLyze for external web security scanning.
 
 ## Comparisons
 

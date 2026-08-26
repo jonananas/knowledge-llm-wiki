@@ -10,6 +10,8 @@ Web technology fingerprinting is the process of identifying the software, framew
 
 The [[urbanadventurer-whatweb]] source presents [[whatweb]] as a dedicated fingerprinting scanner with more than 1800 plugins. It can operate quickly with minimal requests or more aggressively when higher confidence is needed.
 
+In a broader [[external-web-security-scanning]] workflow, web technology fingerprinting pairs naturally with [[tls-configuration-scanning]]: one identifies the visible application stack, while the other checks the encrypted transport posture.
+
 ## Defensive Uses
 
 - Build an inventory of exposed web technologies.
@@ -21,4 +23,7 @@ The [[urbanadventurer-whatweb]] source presents [[whatweb]] as a dedicated finge
 ## Related Pages
 
 - [[whatweb]]
+- [[sslyze]]
+- [[external-web-security-scanning]]
+- [[tls-configuration-scanning]]
 - [[outdated-software-exposure]]

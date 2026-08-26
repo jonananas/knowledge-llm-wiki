@@ -1,5 +1,22 @@
 # Log
 
+## [2026-08-26] opinion | Web Tools
+
+- Created [[external-web-security-scanning]] to highlight the touching points between [[whatweb]] and [[sslyze]].
+- Updated [[whatweb]], [[sslyze]], [[web-technology-fingerprinting]], and [[tls-configuration-scanning]] with reciprocal links and complementary-layer framing.
+- Created first web tools opinion page `opinions/web-tools.md`.
+- Updated `index.md`.
+
+## [2026-08-26] ingest | nabla-c0d3/SSLyze
+
+- Ingested the `nabla-c0d3/sslyze` GitHub repository from https://github.com/nabla-c0d3/sslyze.
+- Created raw capture `raw/nabla-c0d3-sslyze.md`.
+- Created source page [[nabla-c0d3-sslyze]].
+- Created entity page [[sslyze]].
+- Created concept pages [[tls-configuration-scanning]] and [[tls-compliance-in-ci]].
+- Used the repository README and releases page as source material.
+- Updated `index.md`.
+
 ## [2026-08-26] ingest | AI is doing something weird to Science
 
 - Ingested Alejandro Piad Morffis's May 2026 article from https://blog.apiad.net/p/ai-is-doing-something-weird-to-science.
