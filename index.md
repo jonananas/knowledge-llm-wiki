@@ -3,6 +3,7 @@
 ## Sources
 
 - [[announcing-stack-overflow-for-agents]] - Stack Overflow's June 2026 beta announcement for an API-first knowledge exchange for coding agents, centered on search, human-reviewed contribution, verification, and consensus.
+- [[ai-is-doing-something-weird-to-science]] - Alejandro Piad Morffis on AI-assisted science as a proposer/verifier/curator loop where verifier design is the bottleneck.
 - [[astral-uv]] - Astral's February 2024 launch post for `uv`, covering its `pip`/`pip-tools` compatibility, speed claims, resolver features, Rye stewardship, and "Cargo for Python" roadmap.
 - [[codesandbox-homepage]] - CodeSandbox homepage positioning the product as isolated cloud sandbox infrastructure for AI agents, code execution, evals, CI/CD, and scaled development environments.
 - [[fltman-loop-engineer]] - GitHub repository for a Claude Code skill and subagents that scaffold and audit guarded agentic loops.
@@ -14,11 +15,13 @@
 ## Entities
 
 - [[astral]] - Python developer tooling company behind Ruff and `uv`.
+- [[alejandro-piad-morffis]] - Author of the Mostly Harmless AI article on AI-assisted science as a loop.
 - [[claude-code]] - Host environment targeted by Loop Engineer; needs official-doc expansion before broad use.
 - [[codesandbox]] - Platform for isolated cloud development environments, programmatic sandboxes, and secure code execution.
 - [[ethan-brooks]] - Writer behind The Write to Roam, focused here on original research methods for writers.
 - [[fumadocs]] - Open-source React documentation framework with composable content, core, and UI layers.
 - [[loop-engineer]] - Claude Code skill/subagent pack for designing, scaffolding, teaching, and auditing guarded agent loops.
+- [[mostly-harmless-ai]] - Alejandro Piad Morffis's AI publication.
 - [[uv]] - Rust-written Python package installer, resolver, virtual environment creator, and emerging project manager.
 - [[rye]] - Experimental Python project manager that Astral took stewardship of as part of the `uv` roadmap.
 - [[stack-overflow]] - Developer Q&A and technical knowledge platform extending into agent-facing knowledge exchange.
@@ -31,6 +34,7 @@
 
 - [[agent-loop-guardrails]] - Controls that keep autonomous agent loops bounded, verifiable, affordable, sandboxed, and human-gated.
 - [[agent-knowledge-sharing]] - Letting agents reuse, contribute, and verify shared operational knowledge instead of rediscovering fixes in isolated sessions.
+- [[ai-in-science]] - AI participation in scientific discovery workflows, especially candidate generation plus independent verification.
 - [[python-packaging]] - Tooling and standards around Python dependency metadata, resolution, installation, virtual environments, and project management.
 - [[cloud-development-environments]] - Remote development workspaces that can provide reproducible setup, shared compute, and controlled lifecycle.
 - [[dependency-resolution]] - Selecting package versions that satisfy project, transitive, and runtime constraints.
@@ -39,9 +43,11 @@
 - [[loop-engineering]] - Designing the control loop around an agent: triggers, verification, stopping conditions, budgets, and handoff.
 - [[mdx-documentation]] - Documentation authoring that combines Markdown prose with JSX components and JavaScript expressions.
 - [[outdated-software-exposure]] - Risk from exposed old CMS, plugin, library, framework, or server versions with known vulnerabilities.
+- [[proposer-verifier-curator-loop]] - Loop model where humans pose questions, AI proposes candidates, independent verifiers filter, and humans curate.
 - [[sandboxed-code-execution]] - Running untrusted, generated, or user-submitted code inside isolated environments.
 - [[source-discovery-for-writing]] - Finding people, documents, and traces that produce original material for writing.
 - [[verification-driven-agent-knowledge]] - Agent knowledge model where value comes from repeated real-world verification rather than generation alone.
+- [[verifier-bottleneck]] - Constraint that appears when cheap candidate generation outpaces reliable verification capacity.
 - [[web-technology-fingerprinting]] - Identifying a website's visible software stack from responses, headers, paths, assets, and errors.
 - [[interview-chaining]] - Expanding a source network by asking each interviewee who else should be consulted.
 

@@ -1,5 +1,16 @@
 # Log
 
+## [2026-08-26] ingest | AI is doing something weird to Science
+
+- Ingested Alejandro Piad Morffis's May 2026 article from https://blog.apiad.net/p/ai-is-doing-something-weird-to-science.
+- Created raw capture `raw/ai-is-doing-something-weird-to-science.md`.
+- Created source page [[ai-is-doing-something-weird-to-science]].
+- Created entity pages [[mostly-harmless-ai]] and [[alejandro-piad-morffis]].
+- Created concept pages [[ai-in-science]], [[proposer-verifier-curator-loop]], and [[verifier-bottleneck]].
+- Updated [[loop-engineering]] with the AI-assisted science loop connection.
+- Updated [[ai-developer-tools]] with the source as adjacent evidence and a follow-up evaluation todo.
+- Updated `index.md`.
+
 ## [2026-08-26] ingest | Announcing Stack Overflow for Agents
 
 - Ingested Stack Overflow's June 2026 announcement from https://stackoverflow.blog/2026/06/10/announcing-stack-overflow-for-agents.

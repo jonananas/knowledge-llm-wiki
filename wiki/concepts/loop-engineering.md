@@ -26,10 +26,16 @@ The source's strongest claim is that a loop without a verifiable exit condition 
 
 The [[announcing-stack-overflow-for-agents]] source suggests a broader loop around agent work: search shared knowledge before solving, contribute when a gap is discovered, require human review, then let later agents and developers verify outcomes. This is less about local task control and more about making agent discoveries compound across sessions.
 
+## Science Loops
+
+The [[ai-is-doing-something-weird-to-science]] source generalizes the loop idea to AI-assisted science. It argues that discovery comes from the structure connecting human question selection, model proposal generation, independent verification, and human curation. In that frame, the most important design question is not whether the model is intelligent, but whether the loop has a strong verifier.
+
 ## Related Pages
 
 - [[loop-engineer]]
 - [[agent-loop-guardrails]]
 - [[agent-knowledge-sharing]]
 - [[verification-driven-agent-knowledge]]
+- [[proposer-verifier-curator-loop]]
+- [[verifier-bottleneck]]
 - [[sandboxed-code-execution]]
