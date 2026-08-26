@@ -1,5 +1,14 @@
 # Log
 
+## [2026-08-26] ingest | How To Write Stuff No One Else Can
+
+- Ingested Ethan Brooks's February 2024 article from https://thewritetoroam.com/2024/02/how-to-write-stuff-no-one-else-can.
+- Created raw capture `raw/how-to-write-stuff-no-one-else-can.md`.
+- Created source page [[how-to-write-stuff-no-one-else-can]].
+- Created entity pages [[the-write-to-roam]] and [[ethan-brooks]].
+- Created concept pages [[information-advantage]], [[source-discovery-for-writing]], and [[interview-chaining]].
+- Updated `index.md`.
+
 ## [2026-08-26] ingest | uv: Python packaging in Rust
 
 - Ingested Astral's February 2024 `uv` launch post from https://astral.sh/blog/uv.
