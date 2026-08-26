@@ -1,5 +1,20 @@
 # Log
 
+## [2026-08-26] maintenance | WhatWeb Docker Guidance
+
+- Updated [[ilyaglow-dockerfiles-whatweb]], [[whatweb]], and [[outdated-software-exposure]] to avoid recommending direct use of the third-party `ilyaglow/whatweb` image.
+- Reframed the repo as an example Dockerfile source for building an audited local WhatWeb container image.
+- Updated `index.md`.
+
+## [2026-08-26] ingest | ilyaglow/dockerfiles WhatWeb Dockerfile
+
+- Ingested the `ilyaglow/dockerfiles` repository link from https://github.com/ilyaglow/dockerfiles/tree/master as a WhatWeb Dockerfile addendum.
+- Created raw capture `raw/ilyaglow-dockerfiles-whatweb.md`.
+- Created source page [[ilyaglow-dockerfiles-whatweb]].
+- Updated [[whatweb]] with Docker usage and image freshness caveat.
+- Updated [[outdated-software-exposure]] with the containerized `whatweb -v -a 3` command.
+- Updated `index.md`.
+
 ## [2026-08-26] ingest | urbanadventurer/WhatWeb
 
 - Ingested the `urbanadventurer/WhatWeb` GitHub repository README from https://github.com/urbanadventurer/whatweb.

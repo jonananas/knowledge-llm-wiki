@@ -18,6 +18,26 @@ Run `whatweb -v -a 3 yourdomain.com` against any website. Every outdated CMS ver
 
 Use this kind of scan only on domains and systems you own or have permission to assess.
 
+## Docker Usage
+
+The `ilyaglow/dockerfiles` repository contains a `whatweb/` Dockerfile directory that can be used as an example for building your own WhatWeb container. Treat it as a starting point to audit and update locally rather than running a third-party prebuilt image directly. [[ilyaglow-dockerfiles-whatweb]]
+
+Example local build flow:
+
+```sh
+git clone https://github.com/ilyaglow/dockerfiles.git
+cd dockerfiles
+docker build -t local/whatweb ./whatweb
+```
+
+Containerized equivalent of the outdated-software check:
+
+```sh
+docker run -it --rm local/whatweb -v -a 3 yourdomain.com
+```
+
+Before relying on a containerized scanner for security work, verify the Dockerfile's base image, package versions, upstream WhatWeb version, and update behavior. [[ilyaglow-dockerfiles-whatweb]]
+
 ## Aggression Levels
 
 - `-a 1`: stealthy default mode, one HTTP request per website.
@@ -28,6 +48,7 @@ Use this kind of scan only on domains and systems you own or have permission to 
 
 - [[web-technology-fingerprinting]]
 - [[outdated-software-exposure]]
+- [[ilyaglow-dockerfiles-whatweb]]
 
 ## Follow-ups
 
