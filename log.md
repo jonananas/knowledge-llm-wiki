@@ -1,5 +1,15 @@
 # Log
 
+## [2026-08-26] ingest | fltman/loop-engineer
+
+- Ingested the `fltman/loop-engineer` GitHub repository README from https://github.com/fltman/loop-engineer.
+- Created raw capture `raw/fltman-loop-engineer.md`.
+- Created source page [[fltman-loop-engineer]].
+- Created entity pages [[loop-engineer]] and [[claude-code]].
+- Created concept pages [[loop-engineering]] and [[agent-loop-guardrails]].
+- Updated [[sandboxed-code-execution]] with the unattended-loop sandboxing connection.
+- Updated `index.md`.
+
 ## [2026-08-26] ingest | Fumadocs Homepage
 
 - Ingested the Fumadocs homepage from https://www.fumadocs.dev/.
