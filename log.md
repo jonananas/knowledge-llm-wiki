@@ -1,5 +1,14 @@
 # Log
 
+## [2026-08-26] ingest | CodeSandbox Homepage
+
+- Ingested the CodeSandbox homepage from https://codesandbox.io/.
+- Created raw capture `raw/codesandbox-homepage.md`.
+- Created source page [[codesandbox-homepage]].
+- Created entity pages [[codesandbox]] and [[together-ai]].
+- Created concept pages [[cloud-development-environments]] and [[sandboxed-code-execution]].
+- Updated `index.md`.
+
 ## [2026-08-26] ingest | How To Write Stuff No One Else Can
 
 - Ingested Ethan Brooks's February 2024 article from https://thewritetoroam.com/2024/02/how-to-write-stuff-no-one-else-can.
