@@ -1,5 +1,14 @@
 # Log
 
+## [2026-08-27] ingest | Observable 2.0
+
+- Ingested Mike Bostock's February 2024 Observable 2.0 announcement from https://observablehq.com/blog/observable-2-0.
+- Created raw capture `raw/observable-2-0.md`.
+- Created source page [[observable-2-0]].
+- Created entity pages [[observable]] and [[observable-framework]].
+- Created concept pages [[data-apps]] and [[build-time-data-loaders]].
+- Updated `index.md`.
+
 ## [2026-08-27] ingest | magnitudedev/magnitude
 
 - Ingested the `magnitudedev/magnitude` GitHub repository and docs from https://github.com/magnitudedev/magnitude.

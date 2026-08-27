@@ -13,6 +13,7 @@
 - [[ilyaglow-dockerfiles-whatweb]] - Dockerfiles repository addendum pointing to an example WhatWeb Dockerfile for building an audited local container image.
 - [[magnitudedev-magnitude]] - GitHub repository and docs for Magnitude, an Apache-2.0 local agent and inference runtime with hardware-aware local model selection.
 - [[nabla-c0d3-sslyze]] - GitHub repository for SSLyze, a CLI and Python library for SSL/TLS configuration scanning and CI compliance checks.
+- [[observable-2-0]] - Observable's February 2024 announcement of Observable Framework as a code-first static site generator for data apps, dashboards, and reports.
 - [[pnpm-vs-npm-vs-yarn-vs-bun-2026]] - DEV/Pockit comparison of npm, Yarn, pnpm, and Bun as JavaScript package managers in early 2026.
 - [[rf-detr-docs]] - Roboflow RF-DETR documentation for a real-time detection transformer model family supporting detection, segmentation, and keypoint detection preview.
 - [[urbanadventurer-whatweb]] - GitHub repository for WhatWeb, a web technology fingerprinting scanner useful for detecting exposed technology and version information.
@@ -31,6 +32,8 @@
 - [[magnitude]] - Open-source local agent and inference runtime with hardware-aware model selection, offline/private local model execution, skills, and OpenAI-compatible custom endpoints.
 - [[mostly-harmless-ai]] - Alejandro Piad Morffis's AI publication.
 - [[npm]] - Default package manager shipped with Node.js and baseline compatibility choice.
+- [[observable]] - Data-visualization and data-app platform whose 2.0 direction separates exploratory notebooks from durable code-first data apps.
+- [[observable-framework]] - Open-source static site generator for data apps, combining Markdown/JavaScript frontends with polyglot build-time data loaders.
 - [[pnpm]] - JavaScript package manager focused on disk efficiency, strictness, and strong workspace support.
 - [[rf-detr]] - Roboflow real-time detection transformer model family for object detection, instance segmentation, and keypoint detection preview.
 - [[roboflow]] - Computer-vision platform company behind RF-DETR.
@@ -50,8 +53,10 @@
 - [[agent-loop-guardrails]] - Controls that keep autonomous agent loops bounded, verifiable, affordable, sandboxed, and human-gated.
 - [[agent-knowledge-sharing]] - Letting agents reuse, contribute, and verify shared operational knowledge instead of rediscovering fixes in isolated sessions.
 - [[ai-in-science]] - AI participation in scientific discovery workflows, especially candidate generation plus independent verification.
+- [[build-time-data-loaders]] - Preparing dashboard data during build as static snapshots to improve performance, reduce source-system exposure, and simplify static deployment.
 - [[python-packaging]] - Tooling and standards around Python dependency metadata, resolution, installation, virtual environments, and project management.
 - [[cloud-development-environments]] - Remote development workspaces that can provide reproducible setup, shared compute, and controlled lifecycle.
+- [[data-apps]] - Durable interactive applications for presenting, exploring, or communicating data, distinct from exploratory notebooks.
 - [[dependency-resolution]] - Selecting package versions that satisfy project, transitive, and runtime constraints.
 - [[detection-transformers]] - Transformer-based object detection architectures, including RF-DETR.
 - [[documentation-frameworks]] - Reusable systems for docs-site routing, navigation, search, theming, content loading, and authoring.
