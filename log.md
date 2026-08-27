@@ -1,5 +1,15 @@
 # Log
 
+## [2026-08-27] ingest | magnitudedev/magnitude
+
+- Ingested the `magnitudedev/magnitude` GitHub repository and docs from https://github.com/magnitudedev/magnitude.
+- Created raw capture `raw/magnitudedev-magnitude.md`.
+- Created source page [[magnitudedev-magnitude]].
+- Created entity page [[magnitude]].
+- Created concept page [[local-agent-inference]].
+- Updated [[ai-developer-tools]] with Magnitude and local agent inference as adjacent evidence.
+- Updated `index.md`.
+
 ## [2026-08-26] ingest | A Software Library with No Code
 
 - Ingested Drew Breunig's January 2026 article from https://www.dbreunig.com/2026/01/08/a-software-library-with-no-code.html.

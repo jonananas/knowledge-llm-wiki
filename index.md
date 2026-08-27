@@ -11,6 +11,7 @@
 - [[fumadocs-homepage]] - Fumadocs homepage positioning it as a composable React documentation framework with Markdown/MDX, headless customization, and flexible content sources.
 - [[how-to-write-stuff-no-one-else-can]] - Ethan Brooks on building a writing moat through information advantage, overlooked sources, company timeline mapping, and interview chaining.
 - [[ilyaglow-dockerfiles-whatweb]] - Dockerfiles repository addendum pointing to an example WhatWeb Dockerfile for building an audited local container image.
+- [[magnitudedev-magnitude]] - GitHub repository and docs for Magnitude, an Apache-2.0 local agent and inference runtime with hardware-aware local model selection.
 - [[nabla-c0d3-sslyze]] - GitHub repository for SSLyze, a CLI and Python library for SSL/TLS configuration scanning and CI compliance checks.
 - [[pnpm-vs-npm-vs-yarn-vs-bun-2026]] - DEV/Pockit comparison of npm, Yarn, pnpm, and Bun as JavaScript package managers in early 2026.
 - [[rf-detr-docs]] - Roboflow RF-DETR documentation for a real-time detection transformer model family supporting detection, segmentation, and keypoint detection preview.
@@ -27,6 +28,7 @@
 - [[ethan-brooks]] - Writer behind The Write to Roam, focused here on original research methods for writers.
 - [[fumadocs]] - Open-source React documentation framework with composable content, core, and UI layers.
 - [[loop-engineer]] - Claude Code skill/subagent pack for designing, scaffolding, teaching, and auditing guarded agent loops.
+- [[magnitude]] - Open-source local agent and inference runtime with hardware-aware model selection, offline/private local model execution, skills, and OpenAI-compatible custom endpoints.
 - [[mostly-harmless-ai]] - Alejandro Piad Morffis's AI publication.
 - [[npm]] - Default package manager shipped with Node.js and baseline compatibility choice.
 - [[pnpm]] - JavaScript package manager focused on disk efficiency, strictness, and strong workspace support.
@@ -60,6 +62,7 @@
 - [[javascript-package-manager-selection]] - Choosing between npm, Yarn, pnpm, and Bun based on project constraints.
 - [[instance-segmentation]] - Computer-vision task that returns per-object masks rather than only bounding boxes.
 - [[loop-engineering]] - Designing the control loop around an agent: triggers, verification, stopping conditions, budgets, and handoff.
+- [[local-agent-inference]] - Running agent workflows on local models with hardware-aware model selection, quantization/context tradeoffs, model lifecycle management, and privacy/offline constraints.
 - [[mdx-documentation]] - Documentation authoring that combines Markdown prose with JSX components and JavaScript expressions.
 - [[outdated-software-exposure]] - Risk from exposed old CMS, plugin, library, framework, or server versions with known vulnerabilities.
 - [[object-detection]] - Computer-vision task of identifying object instances with bounding boxes and class labels.

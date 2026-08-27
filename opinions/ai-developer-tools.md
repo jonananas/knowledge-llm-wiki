@@ -1,6 +1,6 @@
 # AI Developer Tools
 
-Updated: 2026-08-26
+Updated: 2026-08-27
 
 This page tracks working opinions about AI developer tools. These are not treated as established conclusions unless supported by cited source pages.
 
@@ -11,7 +11,7 @@ This page tracks working opinions about AI developer tools. These are not treate
 
 ## Current Evidence Status
 
-The vault currently has source-backed notes on adjacent tools and concepts: [[a-software-library-with-no-code]], [[spec-driven-ai-development]], [[spec-only-libraries]], [[whenwords]], [[fltman-loop-engineer]], [[loop-engineering]], [[agent-loop-guardrails]], [[stack-overflow-for-agents]], [[agent-knowledge-sharing]], [[verification-driven-agent-knowledge]], [[proposer-verifier-curator-loop]], [[verifier-bottleneck]], [[codesandbox]], [[sandboxed-code-execution]], [[fumadocs]], and [[uv]].
+The vault currently has source-backed notes on adjacent tools and concepts: [[a-software-library-with-no-code]], [[spec-driven-ai-development]], [[spec-only-libraries]], [[whenwords]], [[fltman-loop-engineer]], [[loop-engineering]], [[agent-loop-guardrails]], [[stack-overflow-for-agents]], [[agent-knowledge-sharing]], [[verification-driven-agent-knowledge]], [[proposer-verifier-curator-loop]], [[verifier-bottleneck]], [[codesandbox]], [[sandboxed-code-execution]], [[magnitude]], [[local-agent-inference]], [[fumadocs]], and [[uv]].
 
 It does not yet contain enough comparative evidence to support the claim that spec-driven AI development is more successful than prompting, or that loop engineering is the next step. Treat both as hypotheses.
 
@@ -27,3 +27,4 @@ The [[a-software-library-with-no-code]] source directly supports the spec-driven
 - [ ] evaluate spec-only libraries [https://www.dbreunig.com/2026/01/08/a-software-library-with-no-code.html](https://www.dbreunig.com/2026/01/08/a-software-library-with-no-code.html) - assess whether [[spec-only-libraries]] are useful for small internal utilities and how they affect the spec-driven AI development opinion.
 - [ ] evaluate Stack Overflow for Agents [https://stackoverflow.blog/2026/06/10/announcing-stack-overflow-for-agents](https://stackoverflow.blog/2026/06/10/announcing-stack-overflow-for-agents) - assess whether [[agent-knowledge-sharing]] and [[verification-driven-agent-knowledge]] should become part of the AI developer tools thesis.
 - [ ] evaluate proposer/verifier/curator loops [https://blog.apiad.net/p/ai-is-doing-something-weird-to-science](https://blog.apiad.net/p/ai-is-doing-something-weird-to-science) - assess whether [[proposer-verifier-curator-loop]] and [[verifier-bottleneck]] should sharpen the loop-engineering opinion.
+- [ ] evaluate local agent inference [https://github.com/magnitudedev/magnitude](https://github.com/magnitudedev/magnitude) - assess when [[local-agent-inference]] meaningfully improves privacy, cost, and autonomy for AI developer tools compared with hosted models and cloud sandboxes.
