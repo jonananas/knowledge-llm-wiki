@@ -8,14 +8,17 @@ updated: 2026-08-26
 
 Claude Code is the host environment targeted by [[loop-engineer]]. The `fltman/loop-engineer` README says Claude Code provides loop primitives such as `claude -p`, `/loop`, `/goal`, Tasks, and cloud Routines, while Loop Engineer adds pattern selection, scaffolding, teaching, and guardrails around those primitives. [[fltman-loop-engineer]]
 
+The [[a-software-library-with-no-code]] source also mentions Claude Code as one of the coding-agent environments capable of implementing a tightly specified library from specs and tests, using [[whenwords]] as the example artifact.
+
 ## In This Vault
 
-This page is currently based only on the `fltman/loop-engineer` repository source. It should be expanded from official Claude Code documentation before using it as a general reference on Claude Code behavior.
+This page is currently based on third-party sources. It should be expanded from official Claude Code documentation before using it as a general reference on Claude Code behavior.
 
 ## Related Pages
 
 - [[loop-engineer]]
 - [[loop-engineering]]
+- [[spec-driven-ai-development]]
 
 ## Follow-ups
 

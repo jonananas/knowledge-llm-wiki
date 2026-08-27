@@ -1,5 +1,16 @@
 # Log
 
+## [2026-08-26] ingest | A Software Library with No Code
+
+- Ingested Drew Breunig's January 2026 article from https://www.dbreunig.com/2026/01/08/a-software-library-with-no-code.html.
+- Created raw capture `raw/a-software-library-with-no-code.md`.
+- Created source page [[a-software-library-with-no-code]].
+- Created entity pages [[whenwords]] and [[drew-breunig]].
+- Created concept pages [[spec-only-libraries]] and [[spec-driven-ai-development]].
+- Updated [[claude-code]] with the spec-driven implementation connection.
+- Updated [[ai-developer-tools]] with the source as direct evidence and a follow-up evaluation todo.
+- Updated `index.md`.
+
 ## [2026-08-26] ingest | RF-DETR Docs
 
 - Ingested the RF-DETR documentation homepage from https://rfdetr.roboflow.com/latest/.
@@ -78,6 +89,12 @@
 - Updated [[whatweb]] with Docker usage and image freshness caveat.
 - Updated [[outdated-software-exposure]] with the containerized `whatweb -v -a 3` command.
 - Updated `index.md`.
+
+## [2026-08-27] query | Website TLS settings tools
+
+- Answered a query about tools for improving website TLS settings.
+- Used existing pages [[tls-configuration-scanning]], [[tls-compliance-in-ci]], [[sslyze]], and [[external-web-security-scanning]].
+- Verified current external references for SSL Labs, Hardenize, TLSRef/Mozilla configuration generator, testssl.sh, Nmap ssl-enum-ciphers, Certbot, HSTS preload, OWASP TLS guidance, and related header checks.
 
 ## [2026-08-26] ingest | urbanadventurer/WhatWeb
 
