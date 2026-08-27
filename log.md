@@ -1,5 +1,15 @@
 # Log
 
+## [2026-08-27] ingest | Moderne AI code search at scale
+
+- Ingested Moderne's August 2024 post from https://moderne.ai/blog/ai-code-search-at-scale-finding-method-invocations-with-natural-language.
+- Created raw capture `raw/moderne-ai-code-search-at-scale.md`.
+- Created source page [[moderne-ai-code-search-at-scale]].
+- Created entity pages [[moderne]] and [[openrewrite]].
+- Created concept pages [[semantic-code-search]], [[type-aware-code-search]], and [[large-scale-code-remediation]].
+- Updated [[ai-developer-tools]] with the source as evidence for bounded AI developer tooling.
+- Updated `index.md`.
+
 ## [2026-08-27] ingest | GraphRAG Pattern Catalog
 
 - Ingested the GraphRAG Pattern Catalog from https://graphrag.com/.

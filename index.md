@@ -13,6 +13,7 @@
 - [[how-to-write-stuff-no-one-else-can]] - Ethan Brooks on building a writing moat through information advantage, overlooked sources, company timeline mapping, and interview chaining.
 - [[ilyaglow-dockerfiles-whatweb]] - Dockerfiles repository addendum pointing to an example WhatWeb Dockerfile for building an audited local container image.
 - [[magnitudedev-magnitude]] - GitHub repository and docs for Magnitude, an Apache-2.0 local agent and inference runtime with hardware-aware local model selection.
+- [[moderne-ai-code-search-at-scale]] - Moderne's August 2024 post on scalable natural-language method-invocation search using OpenRewrite, embeddings, top-k selection, and model chaining.
 - [[nabla-c0d3-sslyze]] - GitHub repository for SSLyze, a CLI and Python library for SSL/TLS configuration scanning and CI compliance checks.
 - [[observable-2-0]] - Observable's February 2024 announcement of Observable Framework as a code-first static site generator for data apps, dashboards, and reports.
 - [[pnpm-vs-npm-vs-yarn-vs-bun-2026]] - DEV/Pockit comparison of npm, Yarn, pnpm, and Bun as JavaScript package managers in early 2026.
@@ -32,11 +33,13 @@
 - [[graphrag-pattern-catalog]] - Neo4j-published reference catalog for GraphRAG retriever patterns, graph models, data preparation tasks, research, and terminology.
 - [[loop-engineer]] - Claude Code skill/subagent pack for designing, scaffolding, teaching, and auditing guarded agent loops.
 - [[magnitude]] - Open-source local agent and inference runtime with hardware-aware model selection, offline/private local model execution, skills, and OpenAI-compatible custom endpoints.
+- [[moderne]] - Developer-tools company focused on large-scale code remediation and automated refactoring, shown here using AI-assisted method search on OpenRewrite.
 - [[mostly-harmless-ai]] - Alejandro Piad Morffis's AI publication.
 - [[neo4j]] - Graph database company and publisher of the GraphRAG Pattern Catalog source currently in the vault.
 - [[npm]] - Default package manager shipped with Node.js and baseline compatibility choice.
 - [[observable]] - Data-visualization and data-app platform whose 2.0 direction separates exploratory notebooks from durable code-first data apps.
 - [[observable-framework]] - Open-source static site generator for data apps, combining Markdown/JavaScript frontends with polyglot build-time data loaders.
+- [[openrewrite]] - Framework for large-scale automated code search and refactoring, including type-aware method patterns and recipes.
 - [[pnpm]] - JavaScript package manager focused on disk efficiency, strictness, and strong workspace support.
 - [[rf-detr]] - Roboflow real-time detection transformer model family for object detection, instance segmentation, and keypoint detection preview.
 - [[roboflow]] - Computer-vision platform company behind RF-DETR.
@@ -70,6 +73,7 @@
 - [[javascript-package-management]] - Installing, resolving, locking, auditing, and running dependencies in JavaScript/Node.js projects.
 - [[javascript-package-manager-selection]] - Choosing between npm, Yarn, pnpm, and Bun based on project constraints.
 - [[knowledge-graphs]] - Connected graph structures for entities, facts, documents, chunks, and relationships, used in GraphRAG as retrieval memory.
+- [[large-scale-code-remediation]] - Finding and changing code across many repositories for migrations, security fixes, dependency updates, and platform standardization.
 - [[instance-segmentation]] - Computer-vision task that returns per-object masks rather than only bounding boxes.
 - [[loop-engineering]] - Designing the control loop around an agent: triggers, verification, stopping conditions, budgets, and handoff.
 - [[local-agent-inference]] - Running agent workflows on local models with hardware-aware model selection, quantization/context tradeoffs, model lifecycle management, and privacy/offline constraints.
@@ -80,11 +84,13 @@
 - [[rag-retrieval-patterns]] - Reusable strategies for selecting RAG context, including vector search, metadata filtering, graph traversal, community summaries, and Text2Cypher.
 - [[retrieval-augmented-generation]] - Grounding LLM answers in retrieved external context through pre-retrieval, retrieval, post-retrieval, and answer-generation phases.
 - [[sandboxed-code-execution]] - Running untrusted, generated, or user-submitted code inside isolated environments.
+- [[semantic-code-search]] - Searching code by behavioral meaning or natural-language intent, often using embeddings and model-based ranking.
 - [[source-discovery-for-writing]] - Finding people, documents, and traces that produce original material for writing.
 - [[spec-driven-ai-development]] - Workflow where humans specify behavior, tests, and constraints while coding agents generate implementation code.
 - [[spec-only-libraries]] - Libraries distributed as specs, tests, and implementation instructions instead of maintained source code.
 - [[tls-compliance-in-ci]] - Automated TLS policy checks in CI/CD using profiles such as Mozilla old/intermediate/modern or custom configs.
 - [[tls-configuration-scanning]] - Checking server TLS versions, certificates, ciphers, curves, extensions, and known TLS attack exposure.
+- [[type-aware-code-search]] - Code search over parsed and typed program structure, such as receiver types, method names, and argument types.
 - [[verification-driven-agent-knowledge]] - Agent knowledge model where value comes from repeated real-world verification rather than generation alone.
 - [[verifier-bottleneck]] - Constraint that appears when cheap candidate generation outpaces reliable verification capacity.
 - [[web-technology-fingerprinting]] - Identifying a website's visible software stack from responses, headers, paths, assets, and errors.
