@@ -1,5 +1,14 @@
 # Log
 
+## [2026-08-27] ingest | Git commands before reading code
+
+- Ingested Ally Piechowski's April 2026 post from https://piechowski.io/post/git-commands-before-reading-code/.
+- Created raw capture `raw/git-commands-before-reading-code.md`.
+- Created source page [[git-commands-before-reading-code]].
+- Created entity page [[ally-piechowski]].
+- Created concept pages [[codebase-audits]], [[git-history-analysis]], [[code-churn-hotspots]], and [[bus-factor]].
+- Updated `index.md`.
+
 ## [2026-08-27] ingest | WordPress Everywhere
 
 - Ingested Matt Mullenweg's March 2026 essay from https://ma.tt/2026/03/wordpress-everywhere/.

@@ -10,6 +10,7 @@
 - [[fltman-loop-engineer]] - GitHub repository for a Claude Code skill and subagents that scaffold and audit guarded agentic loops.
 - [[fumadocs-homepage]] - Fumadocs homepage positioning it as a composable React documentation framework with Markdown/MDX, headless customization, and flexible content sources.
 - [[graphrag-com]] - Neo4j's GraphRAG Pattern Catalog for graph-backed RAG concepts, retriever patterns, graph shapes, data preparation, and research links.
+- [[git-commands-before-reading-code]] - Ally Piechowski's April 2026 post on using Git history to find churn hotspots, bus factor, bug clusters, velocity shifts, and firefighting before reading code.
 - [[how-to-write-stuff-no-one-else-can]] - Ethan Brooks on building a writing moat through information advantage, overlooked sources, company timeline mapping, and interview chaining.
 - [[ilyaglow-dockerfiles-whatweb]] - Dockerfiles repository addendum pointing to an example WhatWeb Dockerfile for building an audited local container image.
 - [[magnitudedev-magnitude]] - GitHub repository and docs for Magnitude, an Apache-2.0 local agent and inference runtime with hardware-aware local model selection.
@@ -25,6 +26,7 @@
 
 - [[astral]] - Python developer tooling company behind Ruff and `uv`.
 - [[alejandro-piad-morffis]] - Author of the Mostly Harmless AI article on AI-assisted science as a loop.
+- [[ally-piechowski]] - Author of the Git commands before reading code post, focused here on practical codebase audit diagnostics.
 - [[automattic]] - Company behind WordPress.com and related WordPress ecosystem products, used here as long-term stewardship context.
 - [[bun]] - JavaScript runtime with an integrated speed-focused package manager.
 - [[claude-code]] - Host environment targeted by Loop Engineer; needs official-doc expansion before broad use.
@@ -67,6 +69,9 @@
 - [[ai-in-science]] - AI participation in scientific discovery workflows, especially candidate generation plus independent verification.
 - [[browser-local-software]] - Running substantial application runtimes inside the browser before optional sync, hosting, or publishing.
 - [[build-time-data-loaders]] - Preparing dashboard data during build as static snapshots to improve performance, reduce source-system exposure, and simplify static deployment.
+- [[bus-factor]] - Risk from critical project knowledge being concentrated in too few contributors.
+- [[codebase-audits]] - Structured assessment of a software project's technical and operational risk.
+- [[code-churn-hotspots]] - Files or modules that change unusually often, especially risky when churn overlaps with bug-fix clusters.
 - [[graphrag]] - Retrieval-augmented generation that uses graph structure, treated here as a family of retrieval patterns rather than one fixed algorithm.
 - [[python-packaging]] - Tooling and standards around Python dependency metadata, resolution, installation, virtual environments, and project management.
 - [[cloud-development-environments]] - Remote development workspaces that can provide reproducible setup, shared compute, and controlled lifecycle.
@@ -76,6 +81,7 @@
 - [[detection-transformers]] - Transformer-based object detection architectures, including RF-DETR.
 - [[documentation-frameworks]] - Reusable systems for docs-site routing, navigation, search, theming, content loading, and authoring.
 - [[external-web-security-scanning]] - First-pass outside-in assessment of exposed web technologies, version clues, TLS posture, certificates, and weak configurations.
+- [[git-history-analysis]] - Using commit metadata, churn, authorship, message patterns, and time series to triage codebase risk.
 - [[information-advantage]] - Competitive edge from knowing useful things competitors do not.
 - [[javascript-monorepo-package-management]] - Dependency and workspace management across multi-package JavaScript repositories.
 - [[javascript-package-management]] - Installing, resolving, locking, auditing, and running dependencies in JavaScript/Node.js projects.
