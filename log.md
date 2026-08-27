@@ -1,5 +1,16 @@
 # Log
 
+## [2026-08-27] ingest | WordPress Everywhere
+
+- Ingested Matt Mullenweg's March 2026 essay from https://ma.tt/2026/03/wordpress-everywhere/.
+- Created raw capture `raw/wordpress-everywhere.md`.
+- Created source page [[wordpress-everywhere]].
+- Created entity pages [[wordpress]], [[matt-mullenweg]], [[automattic]], [[wordpress-playground]], and [[my-wordpress-net]].
+- Created concept pages [[browser-local-software]] and [[digital-sovereignty]].
+- Updated [[sandboxed-code-execution]] with the WordPress Playground connection.
+- Updated [[ai-developer-tools]] with the source as adjacent evidence for browser-local AI experimentation.
+- Updated `index.md`.
+
 ## [2026-08-27] ingest | Moderne AI code search at scale
 
 - Ingested Moderne's August 2024 post from https://moderne.ai/blog/ai-code-search-at-scale-finding-method-invocations-with-natural-language.

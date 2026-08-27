@@ -11,7 +11,7 @@ This page tracks working opinions about AI developer tools. These are not treate
 
 ## Current Evidence Status
 
-The vault currently has source-backed notes on adjacent tools and concepts: [[a-software-library-with-no-code]], [[spec-driven-ai-development]], [[spec-only-libraries]], [[whenwords]], [[fltman-loop-engineer]], [[loop-engineering]], [[agent-loop-guardrails]], [[stack-overflow-for-agents]], [[agent-knowledge-sharing]], [[verification-driven-agent-knowledge]], [[proposer-verifier-curator-loop]], [[verifier-bottleneck]], [[codesandbox]], [[sandboxed-code-execution]], [[magnitude]], [[local-agent-inference]], [[moderne]], [[openrewrite]], [[semantic-code-search]], [[type-aware-code-search]], [[large-scale-code-remediation]], [[fumadocs]], and [[uv]].
+The vault currently has source-backed notes on adjacent tools and concepts: [[a-software-library-with-no-code]], [[spec-driven-ai-development]], [[spec-only-libraries]], [[whenwords]], [[fltman-loop-engineer]], [[loop-engineering]], [[agent-loop-guardrails]], [[stack-overflow-for-agents]], [[agent-knowledge-sharing]], [[verification-driven-agent-knowledge]], [[proposer-verifier-curator-loop]], [[verifier-bottleneck]], [[codesandbox]], [[sandboxed-code-execution]], [[magnitude]], [[local-agent-inference]], [[moderne]], [[openrewrite]], [[semantic-code-search]], [[type-aware-code-search]], [[large-scale-code-remediation]], [[wordpress-playground]], [[browser-local-software]], [[fumadocs]], and [[uv]].
 
 It does not yet contain enough comparative evidence to support the claim that spec-driven AI development is more successful than prompting, or that loop engineering is the next step. Treat both as hypotheses.
 
@@ -23,6 +23,8 @@ The [[a-software-library-with-no-code]] source directly supports the spec-driven
 
 The [[moderne-ai-code-search-at-scale]] source supports a more constrained AI developer-tools pattern: AI works best when bounded by deterministic program analysis, test sets, thresholds, and repeatable recipes.
 
+The [[wordpress-everywhere]] source is relevant to AI developer tooling because [[wordpress-playground]] provides fast, browser-local, rollbackable WordPress instances that can serve as safer targets for AI-assisted plugin, theme, and site experiments.
+
 ## Todos
 
 - [ ] evaluate loop engineering [https://github.com/fltman/loop-engineer](https://github.com/fltman/loop-engineer) - assess whether [[loop-engineering]] is a practical next step for AI development workflows, starting from [[fltman-loop-engineer]], [[loop-engineer]], and [[agent-loop-guardrails]].
@@ -31,3 +33,4 @@ The [[moderne-ai-code-search-at-scale]] source supports a more constrained AI de
 - [ ] evaluate proposer/verifier/curator loops [https://blog.apiad.net/p/ai-is-doing-something-weird-to-science](https://blog.apiad.net/p/ai-is-doing-something-weird-to-science) - assess whether [[proposer-verifier-curator-loop]] and [[verifier-bottleneck]] should sharpen the loop-engineering opinion.
 - [ ] evaluate local agent inference [https://github.com/magnitudedev/magnitude](https://github.com/magnitudedev/magnitude) - assess when [[local-agent-inference]] meaningfully improves privacy, cost, and autonomy for AI developer tools compared with hosted models and cloud sandboxes.
 - [ ] evaluate AI-assisted code search [https://moderne.ai/blog/ai-code-search-at-scale-finding-method-invocations-with-natural-language](https://moderne.ai/blog/ai-code-search-at-scale-finding-method-invocations-with-natural-language) - assess whether [[semantic-code-search]] plus [[type-aware-code-search]] is a reliable pattern for AI developer tools.
+- [ ] evaluate browser-local sandboxes for AI-assisted web development [https://ma.tt/2026/03/wordpress-everywhere/](https://ma.tt/2026/03/wordpress-everywhere/) - assess whether [[wordpress-playground]] and [[browser-local-software]] meaningfully improve AI-assisted experimentation safety.

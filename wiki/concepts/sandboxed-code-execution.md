@@ -1,7 +1,7 @@
 ---
 type: concept
 tags: [security, developer-tools, ai-agents, sandboxes]
-updated: 2026-08-26
+updated: 2026-08-27
 ---
 
 # Sandboxed Code Execution
@@ -11,6 +11,8 @@ Sandboxed code execution is the practice of running code inside an isolated envi
 The [[codesandbox-homepage]] source positions [[codesandbox]] around this need: isolated environments for AI agents, secure code interpretation, evals, CI/CD, and large-scale development environments.
 
 The [[fltman-loop-engineer]] source treats sandboxing as one of the mandatory [[agent-loop-guardrails]] for unattended loops: the loop should run in a worktree, container, or branch rather than directly on the main branch.
+
+The [[wordpress-everywhere]] source adds a domain-specific example: [[wordpress-playground]] runs WordPress in a browser-local environment, making it easier to create isolated WordPress instances for testing, demos, and AI-assisted code changes.
 
 ## Design Concerns
 
@@ -26,4 +28,6 @@ The [[fltman-loop-engineer]] source treats sandboxing as one of the mandatory [[
 - [[codesandbox]]
 - [[cloud-development-environments]]
 - [[agent-loop-guardrails]]
+- [[wordpress-playground]]
+- [[browser-local-software]]
 - [[together-ai]]

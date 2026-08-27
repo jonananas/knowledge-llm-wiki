@@ -19,11 +19,13 @@
 - [[pnpm-vs-npm-vs-yarn-vs-bun-2026]] - DEV/Pockit comparison of npm, Yarn, pnpm, and Bun as JavaScript package managers in early 2026.
 - [[rf-detr-docs]] - Roboflow RF-DETR documentation for a real-time detection transformer model family supporting detection, segmentation, and keypoint detection preview.
 - [[urbanadventurer-whatweb]] - GitHub repository for WhatWeb, a web technology fingerprinting scanner useful for detecting exposed technology and version information.
+- [[wordpress-everywhere]] - Matt Mullenweg's March 2026 essay framing my.WordPress.net and WordPress Playground as browser-local, AI-friendly infrastructure for open-source digital sovereignty.
 
 ## Entities
 
 - [[astral]] - Python developer tooling company behind Ruff and `uv`.
 - [[alejandro-piad-morffis]] - Author of the Mostly Harmless AI article on AI-assisted science as a loop.
+- [[automattic]] - Company behind WordPress.com and related WordPress ecosystem products, used here as long-term stewardship context.
 - [[bun]] - JavaScript runtime with an integrated speed-focused package manager.
 - [[claude-code]] - Host environment targeted by Loop Engineer; needs official-doc expansion before broad use.
 - [[codesandbox]] - Platform for isolated cloud development environments, programmatic sandboxes, and secure code execution.
@@ -33,6 +35,7 @@
 - [[graphrag-pattern-catalog]] - Neo4j-published reference catalog for GraphRAG retriever patterns, graph models, data preparation tasks, research, and terminology.
 - [[loop-engineer]] - Claude Code skill/subagent pack for designing, scaffolding, teaching, and auditing guarded agent loops.
 - [[magnitude]] - Open-source local agent and inference runtime with hardware-aware model selection, offline/private local model execution, skills, and OpenAI-compatible custom endpoints.
+- [[matt-mullenweg]] - WordPress co-founder and author of the WordPress Everywhere essay.
 - [[moderne]] - Developer-tools company focused on large-scale code remediation and automated refactoring, shown here using AI-assisted method search on OpenRewrite.
 - [[mostly-harmless-ai]] - Alejandro Piad Morffis's AI publication.
 - [[neo4j]] - Graph database company and publisher of the GraphRAG Pattern Catalog source currently in the vault.
@@ -52,6 +55,9 @@
 - [[together-ai]] - AI infrastructure company that CodeSandbox says it is now part of.
 - [[whatweb]] - Web scanner that fingerprints website technologies, versions, headers, plugins, frameworks, and related cues.
 - [[whenwords]] - Spec-only relative time formatting library distributed as specs and tests rather than implementation code.
+- [[wordpress]] - Open-source publishing platform and CMS, reframed by WordPress Everywhere as portable browser-local software.
+- [[wordpress-playground]] - WebAssembly-powered platform for running WordPress without a traditional host, including browser-local testing, demos, and AI-assisted experimentation.
+- [[my-wordpress-net]] - Browser-local personal WordPress environment built on WordPress Playground, private by default and not initially public internet hosting.
 - [[yarn]] - JavaScript package manager; Yarn 4/Berry emphasizes Plug'n'Play, zero-installs, and plugins.
 
 ## Concepts
@@ -59,12 +65,14 @@
 - [[agent-loop-guardrails]] - Controls that keep autonomous agent loops bounded, verifiable, affordable, sandboxed, and human-gated.
 - [[agent-knowledge-sharing]] - Letting agents reuse, contribute, and verify shared operational knowledge instead of rediscovering fixes in isolated sessions.
 - [[ai-in-science]] - AI participation in scientific discovery workflows, especially candidate generation plus independent verification.
+- [[browser-local-software]] - Running substantial application runtimes inside the browser before optional sync, hosting, or publishing.
 - [[build-time-data-loaders]] - Preparing dashboard data during build as static snapshots to improve performance, reduce source-system exposure, and simplify static deployment.
 - [[graphrag]] - Retrieval-augmented generation that uses graph structure, treated here as a family of retrieval patterns rather than one fixed algorithm.
 - [[python-packaging]] - Tooling and standards around Python dependency metadata, resolution, installation, virtual environments, and project management.
 - [[cloud-development-environments]] - Remote development workspaces that can provide reproducible setup, shared compute, and controlled lifecycle.
 - [[data-apps]] - Durable interactive applications for presenting, exploring, or communicating data, distinct from exploratory notebooks.
 - [[dependency-resolution]] - Selecting package versions that satisfy project, transitive, and runtime constraints.
+- [[digital-sovereignty]] - User control over software, data, identity, exportability, durability, and where systems run.
 - [[detection-transformers]] - Transformer-based object detection architectures, including RF-DETR.
 - [[documentation-frameworks]] - Reusable systems for docs-site routing, navigation, search, theming, content loading, and authoring.
 - [[external-web-security-scanning]] - First-pass outside-in assessment of exposed web technologies, version clues, TLS posture, certificates, and weak configurations.
