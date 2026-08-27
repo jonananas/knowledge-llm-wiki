@@ -1,5 +1,14 @@
 # Log
 
+## [2026-08-27] ingest | GraphRAG Pattern Catalog
+
+- Ingested the GraphRAG Pattern Catalog from https://graphrag.com/.
+- Created raw capture `raw/graphrag-com.md`.
+- Created source page [[graphrag-com]].
+- Created entity pages [[graphrag-pattern-catalog]] and [[neo4j]].
+- Created concept pages [[retrieval-augmented-generation]], [[graphrag]], [[knowledge-graphs]], and [[rag-retrieval-patterns]].
+- Updated `index.md`.
+
 ## [2026-08-27] ingest | Observable 2.0
 
 - Ingested Mike Bostock's February 2024 Observable 2.0 announcement from https://observablehq.com/blog/observable-2-0.
