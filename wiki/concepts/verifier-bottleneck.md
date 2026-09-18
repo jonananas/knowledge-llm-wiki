@@ -1,7 +1,7 @@
 ---
 type: concept
 tags: [ai, science, verification, evaluation]
-updated: 2026-08-26
+updated: 2026-09-16
 ---
 
 # Verifier Bottleneck
@@ -24,8 +24,16 @@ When evaluating an AI-in-science result, ask: what was the verifier, and who bui
 
 Reliable verifiers include formal proof checkers, physical experiments, crystallography, pre-registered replication, or measurements with known error bars. A model judging its own plausibility is not enough. [[ai-is-doing-something-weird-to-science]]
 
+## Software Engineering
+
+The same bottleneck appears in [[software-factories|AI-inclusive software factories]]. Agents can generate code, tests, and commits faster than humans can understand architectural consequences or verify maintainability. [[astra-for-coding-why-are-we-doing-this-again]] is a qualitative example: artifact production scaled for 35 hours, while reliable judgment of whether the overall direction was useful did not.
+
+Functional tests cover only part of this verifier. Production software also needs review of readability, codebase conventions, architecture, security, operational behavior, and whether the change should exist at all. If generation throughput rises faster than this review capacity, the factory creates a review backlog rather than engineering value.
+
 ## Related Pages
 
 - [[ai-in-science]]
 - [[proposer-verifier-curator-loop]]
 - [[verification-driven-agent-knowledge]]
+- [[software-factories]]
+- [[agent-loop-guardrails]]

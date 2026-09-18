@@ -1,6 +1,6 @@
 # AI Developer Tools
 
-Updated: 2026-08-27
+Updated: 2026-09-16
 
 This page tracks working opinions about AI developer tools. These are not treated as established conclusions unless supported by cited source pages.
 
@@ -8,6 +8,7 @@ This page tracks working opinions about AI developer tools. These are not treate
 
 - Spec-driven AI development is more structured and probably more successful than just prompting.
 - [[loop-engineering]] is possibly the next step after spec-driven AI development; evaluation needed.
+- An AI-inclusive [[software-factories|software factory]] should be treated as a governed delivery pipeline, not as an autonomous code-volume engine. Its useful throughput is accepted, reviewable change rather than tokens, lines, commits, or agent runtime.
 
 ## Current Evidence Status
 
@@ -25,6 +26,8 @@ The [[moderne-ai-code-search-at-scale]] source supports a more constrained AI de
 
 The [[wordpress-everywhere]] source is relevant to AI developer tooling because [[wordpress-playground]] provides fast, browser-local, rollbackable WordPress instances that can serve as safer targets for AI-assisted plugin, theme, and site experiments.
 
+The [[astra-for-coding-why-are-we-doing-this-again]] source is direct but qualitative negative evidence about autonomy-heavy coding workflows. It reports that a 35-hour multi-agent experiment generated a large amount of code and commits without useful output, while compact tool-call habits leaked into maintained code. It strengthens the case for external specifications, hard resource limits, independent verification, qualitative code review, and human escalation. It does not establish that every [[software-factories|software-factory]] design fails, because the experiment intentionally allowed the model to choose its own workflow and targeted an unusually ambitious interpreter project.
+
 ## Todos
 
 - [ ] evaluate loop engineering [https://github.com/fltman/loop-engineer](https://github.com/fltman/loop-engineer) - assess whether [[loop-engineering]] is a practical next step for AI development workflows, starting from [[fltman-loop-engineer]], [[loop-engineer]], and [[agent-loop-guardrails]].
@@ -34,3 +37,4 @@ The [[wordpress-everywhere]] source is relevant to AI developer tooling because 
 - [ ] evaluate local agent inference [https://github.com/magnitudedev/magnitude](https://github.com/magnitudedev/magnitude) - assess when [[local-agent-inference]] meaningfully improves privacy, cost, and autonomy for AI developer tools compared with hosted models and cloud sandboxes.
 - [ ] evaluate AI-assisted code search [https://moderne.ai/blog/ai-code-search-at-scale-finding-method-invocations-with-natural-language](https://moderne.ai/blog/ai-code-search-at-scale-finding-method-invocations-with-natural-language) - assess whether [[semantic-code-search]] plus [[type-aware-code-search]] is a reliable pattern for AI developer tools.
 - [ ] evaluate browser-local sandboxes for AI-assisted web development [https://ma.tt/2026/03/wordpress-everywhere/](https://ma.tt/2026/03/wordpress-everywhere/) - assess whether [[wordpress-playground]] and [[browser-local-software]] meaningfully improve AI-assisted experimentation safety.
+- [ ] evaluate governed AI software factories [https://lucumr.pocoo.org/2026/9/7/astra-why/](https://lucumr.pocoo.org/2026/9/7/astra-why/) - compare Ronacher's autonomy-heavy failure case with factory designs that use externally defined stages, independent gates, and bounded work units.

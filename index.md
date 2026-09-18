@@ -5,6 +5,7 @@
 - [[announcing-stack-overflow-for-agents]] - Stack Overflow's June 2026 beta announcement for an API-first knowledge exchange for coding agents, centered on search, human-reviewed contribution, verification, and consensus.
 - [[ai-is-doing-something-weird-to-science]] - Alejandro Piad Morffis on AI-assisted science as a proposer/verifier/curator loop where verifier design is the bottleneck.
 - [[a-software-library-with-no-code]] - Drew Breunig's article introducing `whenwords`, a spec-only library with tests and no implementation code.
+- [[astra-for-coding-why-are-we-doing-this-again]] - Armin Ronacher's critical field report on GPT-6 Astra, long-running agentic coding, tool-call code leaking into maintained code, and an autonomy-heavy software-factory failure.
 - [[astral-uv]] - Astral's February 2024 launch post for `uv`, covering its `pip`/`pip-tools` compatibility, speed claims, resolver features, Rye stewardship, and "Cargo for Python" roadmap.
 - [[codesandbox-homepage]] - CodeSandbox homepage positioning the product as isolated cloud sandbox infrastructure for AI agents, code execution, evals, CI/CD, and scaled development environments.
 - [[fltman-loop-engineer]] - GitHub repository for a Claude Code skill and subagents that scaffold and audit guarded agentic loops.
@@ -27,6 +28,7 @@
 - [[astral]] - Python developer tooling company behind Ruff and `uv`.
 - [[alejandro-piad-morffis]] - Author of the Mostly Harmless AI article on AI-assisted science as a loop.
 - [[ally-piechowski]] - Author of the Git commands before reading code post, focused here on practical codebase audit diagnostics.
+- [[armin-ronacher]] - Software developer and author of the Astra coding critique and software-factory experiment.
 - [[automattic]] - Company behind WordPress.com and related WordPress ecosystem products, used here as long-term stewardship context.
 - [[bun]] - JavaScript runtime with an integrated speed-focused package manager.
 - [[claude-code]] - Host environment targeted by Loop Engineer; needs official-doc expansion before broad use.
@@ -35,6 +37,7 @@
 - [[ethan-brooks]] - Writer behind The Write to Roam, focused here on original research methods for writers.
 - [[fumadocs]] - Open-source React documentation framework with composable content, core, and UI layers.
 - [[graphrag-pattern-catalog]] - Neo4j-published reference catalog for GraphRAG retriever patterns, graph models, data preparation tasks, research, and terminology.
+- [[gpt-6-astra]] - OpenAI model represented here through Ronacher's critical practitioner account of long-horizon coding behavior.
 - [[loop-engineer]] - Claude Code skill/subagent pack for designing, scaffolding, teaching, and auditing guarded agent loops.
 - [[magnitude]] - Open-source local agent and inference runtime with hardware-aware model selection, offline/private local model execution, skills, and OpenAI-compatible custom endpoints.
 - [[matt-mullenweg]] - WordPress co-founder and author of the WordPress Everywhere essay.
@@ -99,6 +102,7 @@
 - [[retrieval-augmented-generation]] - Grounding LLM answers in retrieved external context through pre-retrieval, retrieval, post-retrieval, and answer-generation phases.
 - [[sandboxed-code-execution]] - Running untrusted, generated, or user-submitted code inside isolated environments.
 - [[semantic-code-search]] - Searching code by behavioral meaning or natural-language intent, often using embeddings and model-based ranking.
+- [[software-factories]] - Repeatable software-production systems, distinguishing pre-AI template and product-line automation from AI-inclusive agent orchestration.
 - [[source-discovery-for-writing]] - Finding people, documents, and traces that produce original material for writing.
 - [[spec-driven-ai-development]] - Workflow where humans specify behavior, tests, and constraints while coding agents generate implementation code.
 - [[spec-only-libraries]] - Libraries distributed as specs, tests, and implementation instructions instead of maintained source code.

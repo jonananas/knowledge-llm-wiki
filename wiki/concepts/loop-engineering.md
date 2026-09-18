@@ -1,7 +1,7 @@
 ---
 type: concept
 tags: [ai-agents, automation, developer-tools]
-updated: 2026-08-26
+updated: 2026-09-16
 ---
 
 # Loop Engineering
@@ -30,6 +30,12 @@ The [[announcing-stack-overflow-for-agents]] source suggests a broader loop arou
 
 The [[ai-is-doing-something-weird-to-science]] source generalizes the loop idea to AI-assisted science. It argues that discovery comes from the structure connecting human question selection, model proposal generation, independent verification, and human curation. In that frame, the most important design question is not whether the model is intelligent, but whether the loop has a strong verifier.
 
+## Software Factories
+
+An individual loop can act as one station inside [[software-factories|an AI-inclusive software factory]]. The factory adds intake, task routing, shared context, isolated workspaces, multiple worker or reviewer roles, version control, approvals, and delivery around one or more loops.
+
+[[astra-for-coding-why-are-we-doing-this-again]] provides a negative case for treating persistence as loop quality. Its autonomy-heavy experiment continued for about 35 hours and produced a large volume of code without a useful result. A verifiable local exit condition is therefore necessary but not sufficient: the surrounding system also needs scope, cost, architectural-quality, reviewability, and escalation controls.
+
 ## Related Pages
 
 - [[loop-engineer]]
@@ -39,3 +45,4 @@ The [[ai-is-doing-something-weird-to-science]] source generalizes the loop idea 
 - [[proposer-verifier-curator-loop]]
 - [[verifier-bottleneck]]
 - [[sandboxed-code-execution]]
+- [[software-factories]]

@@ -216,3 +216,14 @@
 - Created entity pages [[uv]], [[astral]], and [[rye]].
 - Created concept pages [[python-packaging]] and [[dependency-resolution]].
 - Created initial `index.md`.
+
+## [2026-09-16] ingest | Astra for Coding: Why Are We Doing This Again?
+
+- Ingested Armin Ronacher's September 2026 article from https://lucumr.pocoo.org/2026/9/7/astra-why/.
+- Created raw capture `raw/astra-for-coding-why-are-we-doing-this-again.md`.
+- Created source page [[astra-for-coding-why-are-we-doing-this-again]].
+- Created entity pages [[armin-ronacher]] and [[gpt-6-astra]].
+- Created [[software-factories]] with an explicit distinction between the pre-AI and AI-inclusive definitions.
+- Updated [[loop-engineering]], [[agent-loop-guardrails]], [[verifier-bottleneck]], and [[spec-driven-ai-development]].
+- Updated [[ai-developer-tools]] with the article as qualitative negative evidence about autonomy-heavy coding workflows.
+- Updated `index.md`.

@@ -1,7 +1,7 @@
 ---
 type: concept
 tags: [ai-agents, safety, automation, developer-tools]
-updated: 2026-08-26
+updated: 2026-09-16
 ---
 
 # Agent Loop Guardrails
@@ -24,9 +24,14 @@ Agent loops can fail by running forever, optimizing a vague proxy, spending more
 
 The [[announcing-stack-overflow-for-agents]] source adds a social quality-control angle: agent contributions to shared knowledge should be reviewed by a human orchestrator and tied back to human reputation before publication.
 
+[[astra-for-coding-why-are-we-doing-this-again]] adds a software-quality limitation: a loop can keep producing commits and may even satisfy narrow checks while the overall implementation becomes unreadable or architecturally incoherent. For coding loops and [[software-factories]], guardrails should therefore cover qualitative reviewability as well as runtime safety.
+
+Additional coding-specific controls include maximum diff size, formatter and linter enforcement, codebase-convention checks, independent review, stop-and-escalate rules after repeated failed approaches, and a human checkpoint before accepting large architectural changes.
+
 ## Related Pages
 
 - [[loop-engineering]]
 - [[loop-engineer]]
 - [[verification-driven-agent-knowledge]]
 - [[sandboxed-code-execution]]
+- [[software-factories]]
