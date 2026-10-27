@@ -1,7 +1,7 @@
 ---
 type: concept
 tags: [ai, science, verification, evaluation]
-updated: 2026-09-16
+updated: 2026-10-27
 ---
 
 # Verifier Bottleneck
@@ -30,6 +30,8 @@ The same bottleneck appears in [[software-factories|AI-inclusive software factor
 
 Functional tests cover only part of this verifier. Production software also needs review of readability, codebase conventions, architecture, security, operational behavior, and whether the change should exist at all. If generation throughput rises faster than this review capacity, the factory creates a review backlog rather than engineering value.
 
+[[loop-engineering-from-first-principles]] proposes an operational response: make each generated change small enough to read, and apply [[review-backpressure]] so the agent loop produces no new PR while its previous proposal awaits review. This controls the rate of candidate generation instead of assuming more automated reviewers remove the bottleneck.
+
 ## Related Pages
 
 - [[ai-in-science]]
@@ -37,3 +39,4 @@ Functional tests cover only part of this verifier. Production software also need
 - [[verification-driven-agent-knowledge]]
 - [[software-factories]]
 - [[agent-loop-guardrails]]
+- [[review-backpressure]]

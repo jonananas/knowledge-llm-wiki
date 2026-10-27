@@ -1,7 +1,7 @@
 ---
 type: concept
 tags: [software-engineering, ai-agents, automation, developer-tools]
-updated: 2026-09-16
+updated: 2026-10-27
 ---
 
 # Software Factories
@@ -52,6 +52,7 @@ Its main failure was confusing activity with validated progress. Roughly 75,000 
 ## Design Implications for AI-Inclusive Factories
 
 - Define throughput as accepted, reviewable change rather than tokens, lines of code, tasks, or commits.
+- Apply [[review-backpressure]] to scheduled coding loops so new PRs do not accumulate beyond human review capacity. [[loop-engineering-from-first-principles]]
 - Keep requirements and acceptance criteria outside the producing agent's control.
 - Use independent verification where possible; a model grading its own work can reproduce the same blind spots.
 - Bound time, cost, iterations, scope, and diff size in the control system.
@@ -69,6 +70,7 @@ These requirements connect software factories to [[spec-driven-ai-development]],
 - [[spec-driven-ai-development]]
 - [[loop-engineering]]
 - [[agent-loop-guardrails]]
+- [[review-backpressure]]
 - [[verifier-bottleneck]]
 - [[sandboxed-code-execution]]
 

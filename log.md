@@ -241,3 +241,11 @@
 - Created entity page [[addy-osmani]].
 - Updated [[loop-engineering]], [[agent-loop-guardrails]], and [[claude-code]] with bounded versus recurring loops, independent review, human judgment, and article-specific product details.
 - Added follow-ups for the Claude Code team loop taxonomy and Ralph loop; updated `index.md`.
+
+## [2026-10-27] ingest | Loop Engineering from First Principles
+
+- Ingested Kyle Mistele's AI Engineer World's Fair talk from https://www.youtube.com/watch?v=xIt_mTQp6mY, using the conference transcript and slides at https://ai.engineer/talks/xIt_mTQp6mY-loop-engineering-from-first-principles.
+- Created raw capture `raw/loop-engineering-from-first-principles.md` and saved the matching control-theory slide to `raw/assets/kyle-mistele-control-loop.webp`.
+- Created source page [[loop-engineering-from-first-principles]], entity pages [[kyle-mistele]] and [[humanlayer]], and concept page [[review-backpressure]].
+- Updated [[loop-engineering]], [[agent-loop-guardrails]], [[verifier-bottleneck]], and [[software-factories]] with incremental control-loop design and review-capacity limits.
+- Added follow-ups for HumanLayer's skills and ast-grep rule configuration; updated `index.md`.

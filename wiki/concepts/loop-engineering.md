@@ -12,6 +12,12 @@ The [[fltman-loop-engineer]] source frames loop engineering as a shift in the de
 
 [[practical-loop-engineering]] adds a practitioner's selection rule: use human-directed turns for ordinary work, a bounded goal for a measurable finish line, an interval loop for recurring checks, and a scheduled or event-driven routine for a continuing stream. A recurring trigger may start a separate bounded goal for each new item. The article describes Claude Code primitives for these modes; their exact syntax and lifecycle are product details to verify in current documentation.
 
+## Control-Theory Model
+
+[[loop-engineering-from-first-principles]] maps a coding loop to a changing system under feedback. The codebase has a desired property (set point). A sensor measures violations, a controller chooses a small correction, an actuator agent makes the change, and CI plus review measure the result. Other team changes are disturbances that the loop must tolerate. The model is useful when a discrepancy can be measured and corrected incrementally.
+
+Mistele's RPC-to-Effect migration makes the model concrete: ast-grep produces a stable violation list, a deterministic controller chooses a small procedure, and an agent works from hand-written golden patterns. A baseline check prevents new violations while the old ones are cleared. Each iteration yields a reviewable PR, then the codebase is measured again. A loop should also apply [[review-backpressure]] so scheduled work stops while its previous PR awaits review.
+
 ## Pattern Taxonomy From Loop Engineer
 
 - Headless while-loop: one agent iterates against one binary check.
@@ -44,6 +50,8 @@ Osmani makes the same distinction from daily practice: a goal evaluator can chec
 
 - [[loop-engineer]]
 - [[addy-osmani]]
+- [[kyle-mistele]]
+- [[review-backpressure]]
 - [[agent-loop-guardrails]]
 - [[agent-knowledge-sharing]]
 - [[verification-driven-agent-knowledge]]

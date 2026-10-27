@@ -30,10 +30,13 @@ Additional coding-specific controls include maximum diff size, formatter and lin
 
 [[practical-loop-engineering]] gives concrete supervision rules: state the measurement tool and retry bound, stop after repeated attempts with no changed result, inspect the generated artifact through a separate checker, and keep human judgment for subjective product choices or sensitive code. Osmani cautions that satisfying a goal evaluator's hard rules does not establish overall code quality.
 
+[[loop-engineering-from-first-principles]] adds codebase-specific controls: keep each correction small enough to review, reject new violations against a committed baseline, and use [[review-backpressure]] to stop a scheduled loop when its earlier PR remains open. Review feedback can also update version-controlled instructions for future iterations.
+
 ## Related Pages
 
 - [[loop-engineering]]
 - [[loop-engineer]]
+- [[review-backpressure]]
 - [[verification-driven-agent-knowledge]]
 - [[sandboxed-code-execution]]
 - [[software-factories]]

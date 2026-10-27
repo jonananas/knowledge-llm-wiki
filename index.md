@@ -14,6 +14,7 @@
 - [[git-commands-before-reading-code]] - Ally Piechowski's April 2026 post on using Git history to find churn hotspots, bus factor, bug clusters, velocity shifts, and firefighting before reading code.
 - [[how-to-write-stuff-no-one-else-can]] - Ethan Brooks on building a writing moat through information advantage, overlooked sources, company timeline mapping, and interview chaining.
 - [[ilyaglow-dockerfiles-whatweb]] - Dockerfiles repository addendum pointing to an example WhatWeb Dockerfile for building an audited local container image.
+- [[loop-engineering-from-first-principles]] - Kyle Mistele's talk on control-theory coding loops, incremental migrations, version-controlled feedback, and review backpressure.
 - [[magnitudedev-magnitude]] - GitHub repository and docs for Magnitude, an Apache-2.0 local agent and inference runtime with hardware-aware local model selection.
 - [[moderne-ai-code-search-at-scale]] - Moderne's August 2024 post on scalable natural-language method-invocation search using OpenRewrite, embeddings, top-k selection, and model chaining.
 - [[nabla-c0d3-sslyze]] - GitHub repository for SSLyze, a CLI and Python library for SSL/TLS configuration scanning and CI compliance checks.
@@ -40,6 +41,8 @@
 - [[fumadocs]] - Open-source React documentation framework with composable content, core, and UI layers.
 - [[graphrag-pattern-catalog]] - Neo4j-published reference catalog for GraphRAG retriever patterns, graph models, data preparation tasks, research, and terminology.
 - [[gpt-6-astra]] - OpenAI model represented here through Ronacher's critical practitioner account of long-horizon coding behavior.
+- [[humanlayer]] - Company whose incremental RPC-to-Effect migration illustrates a controlled coding-agent loop.
+- [[kyle-mistele]] - HumanLayer co-founder and speaker of Loop Engineering from First Principles.
 - [[loop-engineer]] - Claude Code skill/subagent pack for designing, scaffolding, teaching, and auditing guarded agent loops.
 - [[magnitude]] - Open-source local agent and inference runtime with hardware-aware model selection, offline/private local model execution, skills, and OpenAI-compatible custom endpoints.
 - [[matt-mullenweg]] - WordPress co-founder and author of the WordPress Everywhere essay.
@@ -69,7 +72,7 @@
 
 ## Concepts
 
-- [[agent-loop-guardrails]] - Controls that keep agent loops bounded, verifiable, affordable, sandboxed, independently reviewed, and human-gated.
+- [[agent-loop-guardrails]] - Controls that keep agent loops bounded, verifiable, affordable, sandboxed, reviewable, and human-gated.
 - [[agent-knowledge-sharing]] - Letting agents reuse, contribute, and verify shared operational knowledge instead of rediscovering fixes in isolated sessions.
 - [[ai-in-science]] - AI participation in scientific discovery workflows, especially candidate generation plus independent verification.
 - [[browser-local-software]] - Running substantial application runtimes inside the browser before optional sync, hosting, or publishing.
@@ -94,7 +97,7 @@
 - [[knowledge-graphs]] - Connected graph structures for entities, facts, documents, chunks, and relationships, used in GraphRAG as retrieval memory.
 - [[large-scale-code-remediation]] - Finding and changing code across many repositories for migrations, security fixes, dependency updates, and platform standardization.
 - [[instance-segmentation]] - Computer-vision task that returns per-object masks rather than only bounding boxes.
-- [[loop-engineering]] - Designing agent-loop triggers, bounded goals, recurring checks, verification, stopping conditions, budgets, and handoff.
+- [[loop-engineering]] - Designing agent-loop triggers, sensors, incremental corrections, verification, stopping conditions, budgets, and handoff.
 - [[local-agent-inference]] - Running agent workflows on local models with hardware-aware model selection, quantization/context tradeoffs, model lifecycle management, and privacy/offline constraints.
 - [[mdx-documentation]] - Documentation authoring that combines Markdown prose with JSX components and JavaScript expressions.
 - [[outdated-software-exposure]] - Risk from exposed old CMS, plugin, library, framework, or server versions with known vulnerabilities.
@@ -102,9 +105,10 @@
 - [[proposer-verifier-curator-loop]] - Loop model where humans pose questions, AI proposes candidates, independent verifiers filter, and humans curate.
 - [[rag-retrieval-patterns]] - Reusable strategies for selecting RAG context, including vector search, metadata filtering, graph traversal, community summaries, and Text2Cypher.
 - [[retrieval-augmented-generation]] - Grounding LLM answers in retrieved external context through pre-retrieval, retrieval, post-retrieval, and answer-generation phases.
+- [[review-backpressure]] - Pausing automated PR generation while earlier output from the same loop awaits human review.
 - [[sandboxed-code-execution]] - Running untrusted, generated, or user-submitted code inside isolated environments.
 - [[semantic-code-search]] - Searching code by behavioral meaning or natural-language intent, often using embeddings and model-based ranking.
-- [[software-factories]] - Repeatable software-production systems, distinguishing pre-AI template and product-line automation from AI-inclusive agent orchestration.
+- [[software-factories]] - Repeatable software-production systems, including agent orchestration governed by reviewable output and review capacity.
 - [[source-discovery-for-writing]] - Finding people, documents, and traces that produce original material for writing.
 - [[spec-driven-ai-development]] - Workflow where humans specify behavior, tests, and constraints while coding agents generate implementation code.
 - [[spec-only-libraries]] - Libraries distributed as specs, tests, and implementation instructions instead of maintained source code.
@@ -112,7 +116,7 @@
 - [[tls-configuration-scanning]] - Checking server TLS versions, certificates, ciphers, curves, extensions, and known TLS attack exposure.
 - [[type-aware-code-search]] - Code search over parsed and typed program structure, such as receiver types, method names, and argument types.
 - [[verification-driven-agent-knowledge]] - Agent knowledge model where value comes from repeated real-world verification rather than generation alone.
-- [[verifier-bottleneck]] - Constraint that appears when cheap candidate generation outpaces reliable verification capacity.
+- [[verifier-bottleneck]] - Constraint that appears when cheap candidate generation outpaces reliable verification and human review capacity.
 - [[web-technology-fingerprinting]] - Identifying a website's visible software stack from responses, headers, paths, assets, and errors.
 - [[interview-chaining]] - Expanding a source network by asking each interviewee who else should be consulted.
 
