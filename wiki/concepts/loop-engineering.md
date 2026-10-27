@@ -18,6 +18,10 @@ The [[fltman-loop-engineer]] source frames loop engineering as a shift in the de
 
 Mistele's RPC-to-Effect migration makes the model concrete: ast-grep produces a stable violation list, a deterministic controller chooses a small procedure, and an agent works from hand-written golden patterns. A baseline check prevents new violations while the old ones are cleared. Each iteration yields a reviewable PR, then the codebase is measured again. A loop should also apply [[review-backpressure]] so scheduled work stops while its previous PR awaits review.
 
+## Relation to Workflow Graphs
+
+[[graph-engineering-explained-in-8min]] uses a parallel research DAG to illustrate [[graph-engineering]]: separate nodes perform requirements, topic selection, information gathering, verification, and synthesis, with edges carrying work between phases. A loop can be one node's internal behavior or a cycle in a larger graph. The video's DAG is one possible workflow shape, while loop engineering focuses on repeated feedback and stopping conditions.
+
 ## Pattern Taxonomy From Loop Engineer
 
 - Headless while-loop: one agent iterates against one binary check.
@@ -52,6 +56,7 @@ Osmani makes the same distinction from daily practice: a goal evaluator can chec
 - [[addy-osmani]]
 - [[kyle-mistele]]
 - [[review-backpressure]]
+- [[graph-engineering]]
 - [[agent-loop-guardrails]]
 - [[agent-knowledge-sharing]]
 - [[verification-driven-agent-knowledge]]

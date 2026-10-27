@@ -32,6 +32,8 @@ Functional tests cover only part of this verifier. Production software also need
 
 [[loop-engineering-from-first-principles]] proposes an operational response: make each generated change small enough to read, and apply [[review-backpressure]] so the agent loop produces no new PR while its previous proposal awaits review. This controls the rate of candidate generation instead of assuming more automated reviewers remove the bottleneck.
 
+The research DAG in [[graph-engineering-explained-in-8min]] devotes many nodes to verification, illustrating that verification can itself be parallelized. The diagram alone does not establish independence or correctness of those checks; correlated agent judgments would leave the bottleneck unresolved.
+
 ## Related Pages
 
 - [[ai-in-science]]

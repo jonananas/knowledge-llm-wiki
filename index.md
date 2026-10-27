@@ -10,6 +10,7 @@
 - [[codesandbox-homepage]] - CodeSandbox homepage positioning the product as isolated cloud sandbox infrastructure for AI agents, code execution, evals, CI/CD, and scaled development environments.
 - [[fltman-loop-engineer]] - GitHub repository for a Claude Code skill and subagents that scaffold and audit guarded agentic loops.
 - [[fumadocs-homepage]] - Fumadocs homepage positioning it as a composable React documentation framework with Markdown/MDX, headless customization, and flexible content sources.
+- [[graph-engineering-explained-in-8min]] - Caleb Writes Code's video on dynamic multi-agent research graphs, parallel phases, and token and coordination costs.
 - [[graphrag-com]] - Neo4j's GraphRAG Pattern Catalog for graph-backed RAG concepts, retriever patterns, graph shapes, data preparation, and research links.
 - [[git-commands-before-reading-code]] - Ally Piechowski's April 2026 post on using Git history to find churn hotspots, bus factor, bug clusters, velocity shifts, and firefighting before reading code.
 - [[how-to-write-stuff-no-one-else-can]] - Ethan Brooks on building a writing moat through information advantage, overlooked sources, company timeline mapping, and interview chaining.
@@ -34,6 +35,7 @@
 - [[armin-ronacher]] - Software developer and author of the Astra coding critique and software-factory experiment.
 - [[automattic]] - Company behind WordPress.com and related WordPress ecosystem products, used here as long-term stewardship context.
 - [[bun]] - JavaScript runtime with an integrated speed-focused package manager.
+- [[caleb-writes-code]] - Creator of a short explainer on multi-agent workflow graphs.
 - [[claude-code]] - Coding-agent environment described by Loop Engineer and Osmani; product-primitives details need official-doc verification.
 - [[codesandbox]] - Platform for isolated cloud development environments, programmatic sandboxes, and secure code execution.
 - [[drew-breunig]] - Author of the spec-only library article and creator of whenwords.
@@ -80,7 +82,8 @@
 - [[bus-factor]] - Risk from critical project knowledge being concentrated in too few contributors.
 - [[codebase-audits]] - Structured assessment of a software project's technical and operational risk.
 - [[code-churn-hotspots]] - Files or modules that change unusually often, especially risky when churn overlaps with bug-fix clusters.
-- [[graphrag]] - Retrieval-augmented generation that uses graph structure, treated here as a family of retrieval patterns rather than one fixed algorithm.
+- [[graph-engineering]] - Designing agent-workflow nodes, dependencies, routing, parallelism, and handoffs.
+- [[graphrag]] - Retrieval-augmented generation that uses data graphs, distinct from agent-workflow graphs.
 - [[python-packaging]] - Tooling and standards around Python dependency metadata, resolution, installation, virtual environments, and project management.
 - [[cloud-development-environments]] - Remote development workspaces that can provide reproducible setup, shared compute, and controlled lifecycle.
 - [[data-apps]] - Durable interactive applications for presenting, exploring, or communicating data, distinct from exploratory notebooks.
@@ -97,7 +100,7 @@
 - [[knowledge-graphs]] - Connected graph structures for entities, facts, documents, chunks, and relationships, used in GraphRAG as retrieval memory.
 - [[large-scale-code-remediation]] - Finding and changing code across many repositories for migrations, security fixes, dependency updates, and platform standardization.
 - [[instance-segmentation]] - Computer-vision task that returns per-object masks rather than only bounding boxes.
-- [[loop-engineering]] - Designing agent-loop triggers, sensors, incremental corrections, verification, stopping conditions, budgets, and handoff.
+- [[loop-engineering]] - Designing agent-loop triggers, sensors, incremental corrections, verification, stopping conditions, budgets, and handoff; a loop can sit within a workflow graph.
 - [[local-agent-inference]] - Running agent workflows on local models with hardware-aware model selection, quantization/context tradeoffs, model lifecycle management, and privacy/offline constraints.
 - [[mdx-documentation]] - Documentation authoring that combines Markdown prose with JSX components and JavaScript expressions.
 - [[outdated-software-exposure]] - Risk from exposed old CMS, plugin, library, framework, or server versions with known vulnerabilities.
@@ -108,7 +111,7 @@
 - [[review-backpressure]] - Pausing automated PR generation while earlier output from the same loop awaits human review.
 - [[sandboxed-code-execution]] - Running untrusted, generated, or user-submitted code inside isolated environments.
 - [[semantic-code-search]] - Searching code by behavioral meaning or natural-language intent, often using embeddings and model-based ranking.
-- [[software-factories]] - Repeatable software-production systems, including agent orchestration governed by reviewable output and review capacity.
+- [[software-factories]] - Repeatable software-production systems, including graph-based agent orchestration governed by reviewable output and review capacity.
 - [[source-discovery-for-writing]] - Finding people, documents, and traces that produce original material for writing.
 - [[spec-driven-ai-development]] - Workflow where humans specify behavior, tests, and constraints while coding agents generate implementation code.
 - [[spec-only-libraries]] - Libraries distributed as specs, tests, and implementation instructions instead of maintained source code.

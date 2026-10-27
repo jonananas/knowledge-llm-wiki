@@ -33,6 +33,8 @@ An AI-inclusive software factory retains the surrounding production system but i
 
 The model is not the factory. A coding agent is a worker, an [[loop-engineering|agent loop]] is comparable to a workstation, and the factory is the whole delivery system: intake, specifications, orchestration, context, tools, execution environments, version control, verification, approval, cost control, and audit trails.
 
+[[graph-engineering-explained-in-8min]] illustrates one orchestration shape: a task-specific graph that fans work out to specialized agents and later merges their results. Its research example is a DAG; using many nodes raises coordination and token costs, and a verification phase still needs credible evidence rather than a vote count alone.
+
 ## Continuity and Discontinuity
 
 AI does not replace the older definition so much as extend it.
@@ -69,6 +71,7 @@ These requirements connect software factories to [[spec-driven-ai-development]],
 - [[gpt-6-astra]]
 - [[spec-driven-ai-development]]
 - [[loop-engineering]]
+- [[graph-engineering]]
 - [[agent-loop-guardrails]]
 - [[review-backpressure]]
 - [[verifier-bottleneck]]

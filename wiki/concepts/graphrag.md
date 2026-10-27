@@ -1,12 +1,14 @@
 ---
 type: concept
 tags: [ai, rag, knowledge-graphs, retrieval]
-updated: 2026-08-27
+updated: 2026-10-27
 ---
 
 # GraphRAG
 
 GraphRAG is [[retrieval-augmented-generation]] that uses graph structure during retrieval. In the [[graphrag-com]] source, GraphRAG is defined less as one algorithm and more as a family of [[rag-retrieval-patterns]] where each pattern depends on a particular [[knowledge-graphs]] model.
+
+This data-and-retrieval graph differs from [[graph-engineering|an agent workflow graph]], whose nodes are work steps and whose edges control execution. The two can be used together: a workflow node could retrieve context from a knowledge graph.
 
 ## Why Graph Structure Helps
 
@@ -33,3 +35,4 @@ The practical question is not "Should this be GraphRAG?" but which graph structu
 - [[retrieval-augmented-generation]]
 - [[knowledge-graphs]]
 - [[rag-retrieval-patterns]]
+- [[graph-engineering]]

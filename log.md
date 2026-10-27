@@ -249,3 +249,11 @@
 - Created source page [[loop-engineering-from-first-principles]], entity pages [[kyle-mistele]] and [[humanlayer]], and concept page [[review-backpressure]].
 - Updated [[loop-engineering]], [[agent-loop-guardrails]], [[verifier-bottleneck]], and [[software-factories]] with incremental control-loop design and review-capacity limits.
 - Added follow-ups for HumanLayer's skills and ast-grep rule configuration; updated `index.md`.
+
+## [2026-10-27] ingest | Graph Engineering explained in 8min..
+
+- Ingested Caleb Writes Code's video from https://www.youtube.com/watch?v=mBePcvqLX88, using its metadata, diagram frame, and mirrored automatic captions.
+- Created raw capture `raw/graph-engineering-explained-in-8min.md` and saved the matching research-DAG frame to `raw/assets/caleb-graph-engineering-research-dag.png`.
+- Created source page [[graph-engineering-explained-in-8min]], entity page [[caleb-writes-code]], and concept page [[graph-engineering]].
+- Updated [[loop-engineering]], [[graphrag]], [[software-factories]], and [[verifier-bottleneck]] to distinguish workflow graphs from retrieval graphs and record orchestration tradeoffs.
+- Added follow-ups for Anthropic's research system and LangChain's graph-engineering article; updated `index.md`.
