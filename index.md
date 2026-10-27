@@ -19,19 +19,21 @@
 - [[nabla-c0d3-sslyze]] - GitHub repository for SSLyze, a CLI and Python library for SSL/TLS configuration scanning and CI compliance checks.
 - [[observable-2-0]] - Observable's February 2024 announcement of Observable Framework as a code-first static site generator for data apps, dashboards, and reports.
 - [[pnpm-vs-npm-vs-yarn-vs-bun-2026]] - DEV/Pockit comparison of npm, Yarn, pnpm, and Bun as JavaScript package managers in early 2026.
+- [[practical-loop-engineering]] - Addy Osmani's practitioner account of bounded goals, recurring and scheduled loops, independent verification, and retaining human judgment.
 - [[rf-detr-docs]] - Roboflow RF-DETR documentation for a real-time detection transformer model family supporting detection, segmentation, and keypoint detection preview.
 - [[urbanadventurer-whatweb]] - GitHub repository for WhatWeb, a web technology fingerprinting scanner useful for detecting exposed technology and version information.
 - [[wordpress-everywhere]] - Matt Mullenweg's March 2026 essay framing my.WordPress.net and WordPress Playground as browser-local, AI-friendly infrastructure for open-source digital sovereignty.
 
 ## Entities
 
+- [[addy-osmani]] - Author of the Practical Loop Engineering article on supervising coding-agent loops.
 - [[astral]] - Python developer tooling company behind Ruff and `uv`.
 - [[alejandro-piad-morffis]] - Author of the Mostly Harmless AI article on AI-assisted science as a loop.
 - [[ally-piechowski]] - Author of the Git commands before reading code post, focused here on practical codebase audit diagnostics.
 - [[armin-ronacher]] - Software developer and author of the Astra coding critique and software-factory experiment.
 - [[automattic]] - Company behind WordPress.com and related WordPress ecosystem products, used here as long-term stewardship context.
 - [[bun]] - JavaScript runtime with an integrated speed-focused package manager.
-- [[claude-code]] - Host environment targeted by Loop Engineer; needs official-doc expansion before broad use.
+- [[claude-code]] - Coding-agent environment described by Loop Engineer and Osmani; product-primitives details need official-doc verification.
 - [[codesandbox]] - Platform for isolated cloud development environments, programmatic sandboxes, and secure code execution.
 - [[drew-breunig]] - Author of the spec-only library article and creator of whenwords.
 - [[ethan-brooks]] - Writer behind The Write to Roam, focused here on original research methods for writers.
@@ -67,7 +69,7 @@
 
 ## Concepts
 
-- [[agent-loop-guardrails]] - Controls that keep autonomous agent loops bounded, verifiable, affordable, sandboxed, and human-gated.
+- [[agent-loop-guardrails]] - Controls that keep agent loops bounded, verifiable, affordable, sandboxed, independently reviewed, and human-gated.
 - [[agent-knowledge-sharing]] - Letting agents reuse, contribute, and verify shared operational knowledge instead of rediscovering fixes in isolated sessions.
 - [[ai-in-science]] - AI participation in scientific discovery workflows, especially candidate generation plus independent verification.
 - [[browser-local-software]] - Running substantial application runtimes inside the browser before optional sync, hosting, or publishing.
@@ -92,7 +94,7 @@
 - [[knowledge-graphs]] - Connected graph structures for entities, facts, documents, chunks, and relationships, used in GraphRAG as retrieval memory.
 - [[large-scale-code-remediation]] - Finding and changing code across many repositories for migrations, security fixes, dependency updates, and platform standardization.
 - [[instance-segmentation]] - Computer-vision task that returns per-object masks rather than only bounding boxes.
-- [[loop-engineering]] - Designing the control loop around an agent: triggers, verification, stopping conditions, budgets, and handoff.
+- [[loop-engineering]] - Designing agent-loop triggers, bounded goals, recurring checks, verification, stopping conditions, budgets, and handoff.
 - [[local-agent-inference]] - Running agent workflows on local models with hardware-aware model selection, quantization/context tradeoffs, model lifecycle management, and privacy/offline constraints.
 - [[mdx-documentation]] - Documentation authoring that combines Markdown prose with JSX components and JavaScript expressions.
 - [[outdated-software-exposure]] - Risk from exposed old CMS, plugin, library, framework, or server versions with known vulnerabilities.

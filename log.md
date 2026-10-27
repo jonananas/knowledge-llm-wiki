@@ -227,3 +227,17 @@
 - Updated [[loop-engineering]], [[agent-loop-guardrails]], [[verifier-bottleneck]], and [[spec-driven-ai-development]].
 - Updated [[ai-developer-tools]] with the article as qualitative negative evidence about autonomy-heavy coding workflows.
 - Updated `index.md`.
+
+## [2026-09-30] query | Getting started with agentic systems
+
+- Synthesized an introductory path through [[loop-engineering]], [[agent-loop-guardrails]], [[spec-driven-ai-development]], [[proposer-verifier-curator-loop]], [[verifier-bottleneck]], [[sandboxed-code-execution]], and [[software-factories]].
+- Recommended beginning with one bounded, independently verifiable loop before adding evaluator, fan-out, scheduling, local inference, or shared-knowledge infrastructure.
+- Identified that the vault has strong component notes but no single getting-started page yet.
+
+## [2026-10-27] ingest | Practical Loop Engineering
+
+- Ingested Addy Osmani's August 2026 article from https://addyosmani.com/blog/practical-loop-engineering/.
+- Created raw capture `raw/practical-loop-engineering.md` and source page [[practical-loop-engineering]].
+- Created entity page [[addy-osmani]].
+- Updated [[loop-engineering]], [[agent-loop-guardrails]], and [[claude-code]] with bounded versus recurring loops, independent review, human judgment, and article-specific product details.
+- Added follow-ups for the Claude Code team loop taxonomy and Ralph loop; updated `index.md`.

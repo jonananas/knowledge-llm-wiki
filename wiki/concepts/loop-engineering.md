@@ -1,7 +1,7 @@
 ---
 type: concept
 tags: [ai-agents, automation, developer-tools]
-updated: 2026-09-16
+updated: 2026-10-27
 ---
 
 # Loop Engineering
@@ -9,6 +9,8 @@ updated: 2026-09-16
 Loop engineering is the design of autonomous or semi-autonomous agent loops: when an agent runs, what prompts it, what it observes, how it verifies progress, when it stops, and when it hands control back to a human.
 
 The [[fltman-loop-engineer]] source frames loop engineering as a shift in the developer's attention from code, to the agent, to the surrounding loop that controls the agent.
+
+[[practical-loop-engineering]] adds a practitioner's selection rule: use human-directed turns for ordinary work, a bounded goal for a measurable finish line, an interval loop for recurring checks, and a scheduled or event-driven routine for a continuing stream. A recurring trigger may start a separate bounded goal for each new item. The article describes Claude Code primitives for these modes; their exact syntax and lifecycle are product details to verify in current documentation.
 
 ## Pattern Taxonomy From Loop Engineer
 
@@ -36,9 +38,12 @@ An individual loop can act as one station inside [[software-factories|an AI-incl
 
 [[astra-for-coding-why-are-we-doing-this-again]] provides a negative case for treating persistence as loop quality. Its autonomy-heavy experiment continued for about 35 hours and produced a large volume of code without a useful result. A verifiable local exit condition is therefore necessary but not sufficient: the surrounding system also needs scope, cost, architectural-quality, reviewability, and escalation controls.
 
+Osmani makes the same distinction from daily practice: a goal evaluator can check stated hard rules, while an independent reviewer and the human owner still need to inspect the artifact and decide whether the change is worth making. [[practical-loop-engineering]]
+
 ## Related Pages
 
 - [[loop-engineer]]
+- [[addy-osmani]]
 - [[agent-loop-guardrails]]
 - [[agent-knowledge-sharing]]
 - [[verification-driven-agent-knowledge]]

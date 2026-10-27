@@ -1,7 +1,7 @@
 ---
 type: entity
 tags: [ai-agents, developer-tools, coding-agents]
-updated: 2026-08-26
+updated: 2026-10-27
 ---
 
 # Claude Code
@@ -10,9 +10,11 @@ Claude Code is the host environment targeted by [[loop-engineer]]. The `fltman/l
 
 The [[a-software-library-with-no-code]] source also mentions Claude Code as one of the coding-agent environments capable of implementing a tightly specified library from specs and tests, using [[whenwords]] as the example artifact.
 
+In [[practical-loop-engineering]], Addy Osmani describes `/goal` for bounded, measurable work, `/loop` for recurring local checks, and `/schedule` for cloud routines. He reports session and expiry behavior for local recurring loops as of August 2026. These details remain article-sourced and time-sensitive.
+
 ## In This Vault
 
-This page is currently based on third-party sources. It should be expanded from official Claude Code documentation before using it as a general reference on Claude Code behavior.
+This page is currently based on a third-party repository and Osmani's practitioner article. It should be expanded from official Claude Code documentation before using it as a general reference on Claude Code behavior.
 
 ## Related Pages
 
