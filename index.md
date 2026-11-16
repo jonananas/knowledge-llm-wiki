@@ -23,6 +23,7 @@
 - [[pnpm-vs-npm-vs-yarn-vs-bun-2026]] - DEV/Pockit comparison of npm, Yarn, pnpm, and Bun as JavaScript package managers in early 2026.
 - [[practical-loop-engineering]] - Addy Osmani's practitioner account of bounded goals, recurring and scheduled loops, independent verification, and retaining human judgment.
 - [[rf-detr-docs]] - Roboflow RF-DETR documentation for a real-time detection transformer model family supporting detection, segmentation, and keypoint detection preview.
+- [[supra-3d-physag3d]] - Repository for an agent-assisted single-image-to-interactive-3D workflow, with explicit runtime and validation limits.
 - [[urbanadventurer-whatweb]] - GitHub repository for WhatWeb, a web technology fingerprinting scanner useful for detecting exposed technology and version information.
 - [[wordpress-everywhere]] - Matt Mullenweg's March 2026 essay framing my.WordPress.net and WordPress Playground as browser-local, AI-friendly infrastructure for open-source digital sovereignty.
 
@@ -42,7 +43,7 @@
 - [[ethan-brooks]] - Writer behind The Write to Roam, focused here on original research methods for writers.
 - [[fumadocs]] - Open-source React documentation framework with composable content, core, and UI layers.
 - [[graphrag-pattern-catalog]] - Neo4j-published reference catalog for GraphRAG retriever patterns, graph models, data preparation tasks, research, and terminology.
-- [[gpt-6-astra]] - OpenAI model represented here through Ronacher's critical practitioner account of long-horizon coding behavior.
+- [[gpt-6-astra]] - OpenAI model represented by Ronacher's critical coding account and PhysAg3D's declared controller dependency.
 - [[humanlayer]] - Company whose incremental RPC-to-Effect migration illustrates a controlled coding-agent loop.
 - [[kyle-mistele]] - HumanLayer co-founder and speaker of Loop Engineering from First Principles.
 - [[loop-engineer]] - Claude Code skill/subagent pack for designing, scaffolding, teaching, and auditing guarded agent loops.
@@ -56,6 +57,7 @@
 - [[observable-framework]] - Open-source static site generator for data apps, combining Markdown/JavaScript frontends with polyglot build-time data loaders.
 - [[openrewrite]] - Framework for large-scale automated code search and refactoring, including type-aware method patterns and recipes.
 - [[pnpm]] - JavaScript package manager focused on disk efficiency, strictness, and strong workspace support.
+- [[physag3d]] - Agent-assisted 3D asset generation project combining textured geometry with articulated and compliant behavior.
 - [[rf-detr]] - Roboflow real-time detection transformer model family for object detection, instance segmentation, and keypoint detection preview.
 - [[roboflow]] - Computer-vision platform company behind RF-DETR.
 - [[uv]] - Rust-written Python package installer, resolver, virtual environment creator, and emerging project manager.
@@ -93,6 +95,7 @@
 - [[documentation-frameworks]] - Reusable systems for docs-site routing, navigation, search, theming, content loading, and authoring.
 - [[external-web-security-scanning]] - First-pass outside-in assessment of exposed web technologies, version clues, TLS posture, certificates, and weak configurations.
 - [[git-history-analysis]] - Using commit metadata, churn, authorship, message patterns, and time series to triage codebase risk.
+- [[image-to-interactive-3d]] - Inferring appearance and plausible movable or deformable behavior from images, with explicit uncertainty and validation.
 - [[information-advantage]] - Competitive edge from knowing useful things competitors do not.
 - [[javascript-monorepo-package-management]] - Dependency and workspace management across multi-package JavaScript repositories.
 - [[javascript-package-management]] - Installing, resolving, locking, auditing, and running dependencies in JavaScript/Node.js projects.

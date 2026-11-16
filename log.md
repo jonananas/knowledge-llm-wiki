@@ -257,3 +257,11 @@
 - Created source page [[graph-engineering-explained-in-8min]], entity page [[caleb-writes-code]], and concept page [[graph-engineering]].
 - Updated [[loop-engineering]], [[graphrag]], [[software-factories]], and [[verifier-bottleneck]] to distinguish workflow graphs from retrieval graphs and record orchestration tradeoffs.
 - Added follow-ups for Anthropic's research system and LangChain's graph-engineering article; updated `index.md`.
+
+## [2026-11-02] ingest | Supra-3D/PhysAg3D
+
+- Ingested the repository README from https://github.com/Supra-3D/PhysAg3D.
+- Created raw capture `raw/supra-3d-physag3d.md` and source page [[supra-3d-physag3d]].
+- Created entity page [[physag3d]] and concept page [[image-to-interactive-3d]].
+- Updated [[gpt-6-astra]] and [[agent-loop-guardrails]] with the declared model dependency, bounded refinement, provenance, and output-validation distinctions.
+- Added paper and project-page follow-ups; updated `index.md`.
