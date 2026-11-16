@@ -1,7 +1,7 @@
 ---
 type: entity
 tags: [ai, language-models, coding-agents, openai]
-updated: 2026-11-02
+updated: 2026-11-16
 ---
 
 # GPT-6 Astra
@@ -12,9 +12,11 @@ In the reported experiment, Astra was allowed to manage context, maintain agent 
 
 The [[supra-3d-physag3d]] repository documents a separate use: its released 3D-asset controller currently requires `gpt-6-astra` at high reasoning effort for an agent-assisted geometry and simulation workflow. This is a project configuration, not evidence of comparative model quality.
 
+In [[sparks-of-weight-space-programming]], MIT CSAIL researchers report that Astra could read, repair, and write neural network weights directly. Examples include identifying a policy's game from its parameters, editing 0.016% of Qwen3.5-0.8B to break reasoning loops, and writing working MinAtar policies from zero weights. The authors call this [[weight-space-programming]]. The tool and forward-pass harnesses varied by experiment, and some experiments failed.
+
 ## Evidence Status
 
-This page currently combines a critical third-party practitioner account with one project's declared model dependency, not a balanced model evaluation. Official documentation and controlled comparative evidence should be ingested before drawing general conclusions about the model.
+This page currently combines a critical third-party practitioner account, one project's declared model dependency, and one research group's capability demonstrations. Together these are not a balanced model evaluation. Official documentation and controlled comparative evidence should be ingested before drawing general conclusions about the model.
 
 ## Related Pages
 
@@ -23,6 +25,7 @@ This page currently combines a critical third-party practitioner account with on
 - [[loop-engineering]]
 - [[agent-loop-guardrails]]
 - [[physag3d]]
+- [[weight-space-programming]]
 
 ## Follow-ups
 

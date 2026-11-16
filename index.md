@@ -23,6 +23,7 @@
 - [[pnpm-vs-npm-vs-yarn-vs-bun-2026]] - DEV/Pockit comparison of npm, Yarn, pnpm, and Bun as JavaScript package managers in early 2026.
 - [[practical-loop-engineering]] - Addy Osmani's practitioner account of bounded goals, recurring and scheduled loops, independent verification, and retaining human judgment.
 - [[rf-detr-docs]] - Roboflow RF-DETR documentation for a real-time detection transformer model family supporting detection, segmentation, and keypoint detection preview.
+- [[sparks-of-weight-space-programming]] - Takehi, Teoh, Zhang, and Khattab's November 2026 MIT CSAIL post showing GPT-6 Astra reading, fixing, and writing neural network weights directly.
 - [[supra-3d-physag3d]] - Repository for an agent-assisted single-image-to-interactive-3D workflow, with explicit runtime and validation limits.
 - [[urbanadventurer-whatweb]] - GitHub repository for WhatWeb, a web technology fingerprinting scanner useful for detecting exposed technology and version information.
 - [[wordpress-everywhere]] - Matt Mullenweg's March 2026 essay framing my.WordPress.net and WordPress Playground as browser-local, AI-friendly infrastructure for open-source digital sovereignty.
@@ -51,6 +52,7 @@
 - [[matt-mullenweg]] - WordPress co-founder and author of the WordPress Everywhere essay.
 - [[moderne]] - Developer-tools company focused on large-scale code remediation and automated refactoring, shown here using AI-assisted method search on OpenRewrite.
 - [[mostly-harmless-ai]] - Alejandro Piad Morffis's AI publication.
+- [[omar-khattab]] - MIT CSAIL researcher and co-author of the weight-space programming post.
 - [[neo4j]] - Graph database company and publisher of the GraphRAG Pattern Catalog source currently in the vault.
 - [[npm]] - Default package manager shipped with Node.js and baseline compatibility choice.
 - [[observable]] - Data-visualization and data-app platform whose 2.0 direction separates exploratory notebooks from durable code-first data apps.
@@ -58,6 +60,7 @@
 - [[openrewrite]] - Framework for large-scale automated code search and refactoring, including type-aware method patterns and recipes.
 - [[pnpm]] - JavaScript package manager focused on disk efficiency, strictness, and strong workspace support.
 - [[physag3d]] - Agent-assisted 3D asset generation project combining textured geometry with articulated and compliant behavior.
+- [[rikiya-takehi]] - MIT CSAIL researcher and co-first author of the weight-space programming post.
 - [[rf-detr]] - Roboflow real-time detection transformer model family for object detection, instance segmentation, and keypoint detection preview.
 - [[roboflow]] - Computer-vision platform company behind RF-DETR.
 - [[uv]] - Rust-written Python package installer, resolver, virtual environment creator, and emerging project manager.
@@ -123,6 +126,7 @@
 - [[type-aware-code-search]] - Code search over parsed and typed program structure, such as receiver types, method names, and argument types.
 - [[verification-driven-agent-knowledge]] - Agent knowledge model where value comes from repeated real-world verification rather than generation alone.
 - [[verifier-bottleneck]] - Constraint that appears when cheap candidate generation outpaces reliable verification and human review capacity.
+- [[weight-space-programming]] - LLMs reading, diagnosing, editing, or writing neural network weights by reasoning instead of gradient training.
 - [[web-technology-fingerprinting]] - Identifying a website's visible software stack from responses, headers, paths, assets, and errors.
 - [[interview-chaining]] - Expanding a source network by asking each interviewee who else should be consulted.
 

@@ -265,3 +265,11 @@
 - Created entity page [[physag3d]] and concept page [[image-to-interactive-3d]].
 - Updated [[gpt-6-astra]] and [[agent-loop-guardrails]] with the declared model dependency, bounded refinement, provenance, and output-validation distinctions.
 - Added paper and project-page follow-ups; updated `index.md`.
+
+## [2026-11-16] ingest | Sparks of Weight-Space Programming
+
+- Ingested the MIT CSAIL blog post by Rikiya Takehi, Jayden Teoh, Alex Zhang, and Omar Khattab from https://rikiyat.github.io/blog/weight-space-programming/.
+- Created the raw capture `raw/sparks-of-weight-space-programming.md` and the source page [[sparks-of-weight-space-programming]].
+- Created the concept page [[weight-space-programming]] and the entity pages [[rikiya-takehi]] and [[omar-khattab]].
+- Updated [[gpt-6-astra]] with the weight read, fix, and write results and broadened its evidence-status note.
+- Added follow-ups for the experiment logs, IWIBench, Simon Willison's post, transformers written from scratch, robot policy editing, Tracr, and Software 2.0. Updated `index.md`.
