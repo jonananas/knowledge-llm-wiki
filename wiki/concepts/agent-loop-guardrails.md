@@ -1,7 +1,7 @@
 ---
 type: concept
 tags: [ai-agents, safety, automation, developer-tools]
-updated: 2026-11-02
+updated: 2026-11-16
 ---
 
 # Agent Loop Guardrails
@@ -34,6 +34,8 @@ Additional coding-specific controls include maximum diff size, formatter and lin
 
 For generated artifacts beyond source code, [[supra-3d-physag3d]] illustrates another boundary: cap acceptance and repair rounds, preserve input and runtime provenance, and report the actual validation status of each output. A worker's successful exit or a valid checksum does not establish that a 3D asset behaves physically as intended.
 
+[[andrewyng-openworker-harness]] shows guardrails built into an embeddable [[agent-harnesses|agent harness]] rather than added per loop. It provides per-operation approvals, session grants, optional LLM-assisted review, guardrails, and hooks. Two operational rules stand out. First, reconcile unknown tool outcomes before retrying, rather than replaying them after a crash. Second, stopping observation of a run does not cancel its execution.
+
 ## Related Pages
 
 - [[loop-engineering]]
@@ -42,3 +44,4 @@ For generated artifacts beyond source code, [[supra-3d-physag3d]] illustrates an
 - [[verification-driven-agent-knowledge]]
 - [[sandboxed-code-execution]]
 - [[software-factories]]
+- [[agent-harnesses]]

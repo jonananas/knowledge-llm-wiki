@@ -273,3 +273,11 @@
 - Created the concept page [[weight-space-programming]] and the entity pages [[rikiya-takehi]] and [[omar-khattab]].
 - Updated [[gpt-6-astra]] with the weight read, fix, and write results and broadened its evidence-status note.
 - Added follow-ups for the experiment logs, IWIBench, Simon Willison's post, transformers written from scratch, robot policy editing, Tracr, and Software 2.0. Updated `index.md`.
+
+## [2026-11-16] ingest | andrewyng/openworker Harness SDK
+
+- Ingested the Harness SDK README from https://github.com/andrewyng/openworker/blob/main/harness/README.md.
+- Created raw capture `raw/andrewyng-openworker-harness.md` and source page [[andrewyng-openworker-harness]].
+- Created entity page [[openworker]] and concept page [[agent-harnesses]].
+- Updated [[agent-loop-guardrails]] and [[sandboxed-code-execution]] with harness-level approvals, recovery from unknown outcomes, and the OpenShell versus callback trust boundary.
+- Added follow-ups for the SDK docs, the OpenShell guide, and the repository root; updated `index.md`.

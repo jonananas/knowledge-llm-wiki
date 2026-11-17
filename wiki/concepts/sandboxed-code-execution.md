@@ -1,7 +1,7 @@
 ---
 type: concept
 tags: [security, developer-tools, ai-agents, sandboxes]
-updated: 2026-08-27
+updated: 2026-11-16
 ---
 
 # Sandboxed Code Execution
@@ -13,6 +13,8 @@ The [[codesandbox-homepage]] source positions [[codesandbox]] around this need: 
 The [[fltman-loop-engineer]] source treats sandboxing as one of the mandatory [[agent-loop-guardrails]] for unattended loops: the loop should run in a worktree, container, or branch rather than directly on the main branch.
 
 The [[wordpress-everywhere]] source adds a domain-specific example: [[wordpress-playground]] runs WordPress in a browser-local environment, making it easier to create isolated WordPress instances for testing, demos, and AI-assisted code changes.
+
+[[andrewyng-openworker-harness]] draws a trust boundary inside an [[agent-harnesses|agent harness]]. OpenShell isolates configured shell and file execution, the agent loop stays in the trusted harness process, and application callbacks run with full application privileges. The README warns that a workspace path alone does not confine filesystem access.
 
 ## Design Concerns
 
@@ -31,3 +33,4 @@ The [[wordpress-everywhere]] source adds a domain-specific example: [[wordpress-
 - [[wordpress-playground]]
 - [[browser-local-software]]
 - [[together-ai]]
+- [[openworker]]

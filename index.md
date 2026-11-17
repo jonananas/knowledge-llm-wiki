@@ -2,6 +2,7 @@
 
 ## Sources
 
+- [[andrewyng-openworker-harness]] - README for the OpenWorker Harness SDK, an embeddable Rust-engine agent harness with TypeScript and Rust SDKs, durable sessions, approvals, and OpenShell isolation.
 - [[announcing-stack-overflow-for-agents]] - Stack Overflow's June 2026 beta announcement for an API-first knowledge exchange for coding agents, centered on search, human-reviewed contribution, verification, and consensus.
 - [[ai-is-doing-something-weird-to-science]] - Alejandro Piad Morffis on AI-assisted science as a proposer/verifier/curator loop where verifier design is the bottleneck.
 - [[a-software-library-with-no-code]] - Drew Breunig's article introducing `whenwords`, a spec-only library with tests and no implementation code.
@@ -58,6 +59,7 @@
 - [[observable]] - Data-visualization and data-app platform whose 2.0 direction separates exploratory notebooks from durable code-first data apps.
 - [[observable-framework]] - Open-source static site generator for data apps, combining Markdown/JavaScript frontends with polyglot build-time data loaders.
 - [[openrewrite]] - Framework for large-scale automated code search and refactoring, including type-aware method patterns and recipes.
+- [[openworker]] - MIT-licensed agent project with a desktop app and an embeddable Harness SDK.
 - [[pnpm]] - JavaScript package manager focused on disk efficiency, strictness, and strong workspace support.
 - [[physag3d]] - Agent-assisted 3D asset generation project combining textured geometry with articulated and compliant behavior.
 - [[rikiya-takehi]] - MIT CSAIL researcher and co-first author of the weight-space programming post.
@@ -80,6 +82,7 @@
 ## Concepts
 
 - [[agent-loop-guardrails]] - Controls that keep agent loops bounded, verifiable, affordable, sandboxed, reviewable, and human-gated.
+- [[agent-harnesses]] - Runtimes that wrap a model in a tool loop with sessions, approvals, guardrails, isolation, and recovery.
 - [[agent-knowledge-sharing]] - Letting agents reuse, contribute, and verify shared operational knowledge instead of rediscovering fixes in isolated sessions.
 - [[ai-in-science]] - AI participation in scientific discovery workflows, especially candidate generation plus independent verification.
 - [[browser-local-software]] - Running substantial application runtimes inside the browser before optional sync, hosting, or publishing.
