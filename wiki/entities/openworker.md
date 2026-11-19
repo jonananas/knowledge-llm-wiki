@@ -1,7 +1,7 @@
 ---
 type: entity
 tags: [ai-agents, agent-harness, sdk, open-source]
-updated: 2026-11-16
+updated: 2026-11-17
 ---
 
 # OpenWorker
@@ -24,3 +24,4 @@ The API is still evolving, and the cloud deployment guides are experimental.
 - [[agent-harnesses]]
 - [[agent-loop-guardrails]]
 - [[sandboxed-code-execution]]
+- [[codex-cli]]

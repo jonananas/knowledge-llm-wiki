@@ -20,6 +20,7 @@
 - [[magnitudedev-magnitude]] - GitHub repository and docs for Magnitude, an Apache-2.0 local agent and inference runtime with hardware-aware local model selection.
 - [[moderne-ai-code-search-at-scale]] - Moderne's August 2024 post on scalable natural-language method-invocation search using OpenRewrite, embeddings, top-k selection, and model chaining.
 - [[nabla-c0d3-sslyze]] - GitHub repository for SSLyze, a CLI and Python library for SSL/TLS configuration scanning and CI compliance checks.
+- [[openai-codex]] - OpenAI's Codex CLI repository README and TypeScript SDK README, covering surfaces, install, ChatGPT/API-key auth, and the SDK that wraps the CLI over JSONL.
 - [[observable-2-0]] - Observable's February 2024 announcement of Observable Framework as a code-first static site generator for data apps, dashboards, and reports.
 - [[pnpm-vs-npm-vs-yarn-vs-bun-2026]] - DEV/Pockit comparison of npm, Yarn, pnpm, and Bun as JavaScript package managers in early 2026.
 - [[practical-loop-engineering]] - Addy Osmani's practitioner account of bounded goals, recurring and scheduled loops, independent verification, and retaining human judgment.
@@ -40,6 +41,7 @@
 - [[bun]] - JavaScript runtime with an integrated speed-focused package manager.
 - [[caleb-writes-code]] - Creator of a short explainer on multi-agent workflow graphs.
 - [[claude-code]] - Coding-agent environment described by Loop Engineer and Osmani; product-primitives details need official-doc verification.
+- [[codex-cli]] - OpenAI's open-source local coding agent (CLI, IDE, desktop, cloud) with SDKs that drive the CLI programmatically.
 - [[codesandbox]] - Platform for isolated cloud development environments, programmatic sandboxes, and secure code execution.
 - [[drew-breunig]] - Author of the spec-only library article and creator of whenwords.
 - [[ethan-brooks]] - Writer behind The Write to Roam, focused here on original research methods for writers.

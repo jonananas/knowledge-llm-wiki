@@ -281,3 +281,22 @@
 - Created entity page [[openworker]] and concept page [[agent-harnesses]].
 - Updated [[agent-loop-guardrails]] and [[sandboxed-code-execution]] with harness-level approvals, recovery from unknown outcomes, and the OpenShell versus callback trust boundary.
 - Added follow-ups for the SDK docs, the OpenShell guide, and the repository root; updated `index.md`.
+
+## [2026-11-17] ingest | openai/codex
+
+- Ingested the repository README from https://github.com/openai/codex and its TypeScript SDK README.
+- Created raw capture `raw/openai-codex.md`, source page [[openai-codex]], and entity page [[codex-cli]].
+- Updated [[agent-harnesses]] (general-purpose harness versus product wrapper) and [[openworker]].
+- Added follow-ups for the Codex docs, the Python SDK, and API-key auth; updated `index.md`.
+
+## [2026-11-17] query | Codex vs OpenWorker decision questions
+
+- Answered in chat which questions to ask when choosing between [[codex-cli]] (via `@openai/codex-sdk`) and the [[openworker]] Harness SDK, using [[openai-codex]], [[andrewyng-openworker-harness]], and [[agent-harnesses]].
+
+## [2026-11-17] query | Extending or forking Codex (e.g. Claude backend)
+
+- Answered in chat whether [[codex-cli]] can be modified to cover [[openworker]]-style use cases, including a Claude backend. Checked the Codex advanced-config docs (https://learn.chatgpt.com/docs/config-file/config-advanced): custom `model_providers` exist, and only `wire_api = "responses"` is shown. That page is not yet ingested.
+
+## [2026-11-19] query | Does OpenWorker run as a service or a local application?
+
+- Answered from [[andrewyng-openworker-harness]] and [[openworker]]: by default it is a library embedded in your application process, a separate agent service is optional, and the OpenWorker Desktop App is a different, local product.

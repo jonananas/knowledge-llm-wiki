@@ -1,7 +1,7 @@
 ---
 type: concept
 tags: [ai-agents, agent-harness, architecture]
-updated: 2026-11-16
+updated: 2026-11-17
 ---
 
 # Agent Harnesses
@@ -26,12 +26,14 @@ Other recurring design points from that source:
 
 - Harness controls implement many [[agent-loop-guardrails]], such as approvals, hooks, and budget and iteration limits.
 - [[loop-engineering]] covers how to design a particular loop; the harness is the infrastructure it runs on.
-- [[claude-code]] and [[magnitude]] are complete agent products with built-in harnesses. OpenWorker exposes its harness as a library for other applications.
+- [[claude-code]], [[codex-cli]], and [[magnitude]] are complete agent products with built-in harnesses. OpenWorker exposes its harness as a library for other applications.
+- There are two ways to embed an agent. A **general-purpose harness** such as [[openworker]] lets your application define the tools, policies, and identity. A **product wrapper** such as `@openai/codex-sdk` spawns a finished coding agent and streams its events ([[openai-codex]]). The first gives more control; the second inherits a mature, coding-specialized agent.
 - The harness also defines what the model is allowed to observe and do, so results depend on it. [[sparks-of-weight-space-programming]] notes that its findings are "limited by harness design".
 
 ## Related Pages
 
 - [[openworker]]
+- [[codex-cli]]
 - [[agent-loop-guardrails]]
 - [[sandboxed-code-execution]]
 - [[loop-engineering]]
